@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="vi"><head><meta name="robots" content="noindex, nofollow, noarchive"/><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Hoa Đô – Web Prototype V3 GPS | 10 màn hình</title><style>
+<html lang="vi"><head><meta name="robots" content="noindex, nofollow, noarchive"/><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Hoa Đô – Prototype V3.2 | Light / Dark Theme</title><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;450;500;550;600;650;700;750;800&display=swap" rel="stylesheet"/>
+<script>/* Apply chosen theme before painting; light by default. */try{document.documentElement.dataset.theme=localStorage.getItem('hoado_v32_theme')==='dark'?'dark':'light'}catch(e){document.documentElement.dataset.theme='light'}</script><style>
 :root{--ink:#243144;--muted:#708091;--line:#d5dce5;--pale:#f4f6f9;--white:#fff;--blue:#416485;--bluebg:#ecf1f7;--warn:#8a7150;--warnbg:#f5f0e6;--danger:#825957;--dangerbg:#f9f0ef;--good:#587869;--goodbg:#e9f3ee;--shadow:0 6px 16px rgba(34,52,72,.035)}
 *{box-sizing:border-box}body{font-family:Arial,'Noto Sans',sans-serif;background:#e8ecf1;color:var(--ink);margin:0;font-size:13px}button,input,select,textarea{font:inherit;color:inherit}button{cursor:pointer}button:disabled{cursor:not-allowed;opacity:.45} .app{display:flex;min-height:100vh;width:100%} .side{width:246px;min-width:246px;background:#fcfdff;border-right:1px solid var(--line);height:100vh;position:sticky;top:0;display:flex;flex-direction:column} .brand{height:76px;padding:21px 20px;border-bottom:1px solid var(--line)}.brandname{font-weight:800;letter-spacing:.6px;font-size:17px}.brand small{display:block;font-size:10px;color:var(--muted);margin-top:5px;letter-spacing:1px}.menu{padding:16px 10px;overflow-y:auto;flex:1}.menu-label{color:#95a0af;text-transform:uppercase;font-weight:800;font-size:10px;letter-spacing:1px;padding:13px 14px 7px}.nav{width:100%;border:0;background:transparent;text-align:left;padding:11px 12px;border-radius:7px;margin:2px 0;display:flex;gap:9px;align-items:center;font-size:12px}.nav:hover{background:#f1f4f8}.nav.active{background:#e8eff6;color:#315978;font-weight:700}.nav .id{font-size:10px;color:#8595a5;min-width:26px}.sidefoot{padding:15px 19px;border-top:1px solid var(--line);background:#f8fafc;color:var(--muted);font-size:11px;line-height:1.6}.sidefoot strong{color:var(--ink)}.main{min-width:0;flex:1;height:100vh;overflow-y:auto}.header{height:76px;display:flex;align-items:center;justify-content:space-between;padding:0 27px;background:#fff;border-bottom:1px solid var(--line);gap:10px}.header-title{font-size:12px;color:var(--muted)}.chip{display:inline-flex;align-items:center;border-radius:5px;padding:5px 9px;border:1px solid var(--line);font-size:11px;background:white;color:var(--muted);white-space:nowrap}.chip.blue{border-color:#dce5ef;background:var(--bluebg);color:#416485}.chip.warn{border-color:#e9decc;background:var(--warnbg);color:#806949}.chip.good{border-color:#d7eadd;background:var(--goodbg);color:#587869}.chip.danger{border-color:#ebd8d6;background:var(--dangerbg);color:#855b5b}.content{padding:25px 30px 34px;max-width:1480px;margin:0 auto}.pagehead{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:17px;gap:14px}.eyebrow{font-size:10px;color:#70869a;font-weight:700;letter-spacing:1.1px;text-transform:uppercase}.pagehead h1{font-size:23px;margin:5px 0 5px;letter-spacing:-.3px}.desc{color:var(--muted);font-size:12px;line-height:1.5;max-width:770px}.actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.btn{padding:9px 14px;background:#fff;border:1px solid #becad5;border-radius:6px;font-weight:600;font-size:12px;white-space:nowrap}.btn:hover{border-color:#5a7790;background:#f7fafe}.btn.primary{background:#42637f;color:#fff;border-color:#42637f}.btn.primary:hover{background:#305371}.btn.ghost{border:none;background:transparent;color:#416485}.btn.sm{padding:6px 9px;font-size:11px}.panel{border:1px solid var(--line);background:white;border-radius:9px;box-shadow:var(--shadow);min-width:0}.panelhead{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #e8edf2;padding:14px 17px;gap:12px}.panelhead strong{font-size:13px}.panelbody{padding:16px 17px}.panel-foot{padding:11px 17px;border-top:1px solid #edf0f3;display:flex;justify-content:space-between;align-items:center}.muted{color:var(--muted)}.small{font-size:11px}.tiny{font-size:10px}.bold{font-weight:700}.dot{width:8px;height:8px;border:2px solid #879eaa;border-radius:50%;display:inline-block}.row{display:flex;align-items:center;gap:10px}.between{justify-content:space-between}.top{align-items:flex-start}.wrap{flex-wrap:wrap}.grid{display:grid;gap:15px}.g2{grid-template-columns:1fr 1fr}.g3{grid-template-columns:repeat(3,minmax(0,1fr))}.g4{grid-template-columns:repeat(4,minmax(0,1fr))}.g65{grid-template-columns:1.55fr 1fr}.g70{grid-template-columns:1.75fr 1fr}.g50{grid-template-columns:1fr 1fr}.g260{grid-template-columns:255px minmax(0,1fr)}.g330{grid-template-columns:minmax(0,1fr) 305px}.g220{grid-template-columns:minmax(0,1fr) 240px}.kpi{padding:17px 18px;min-height:102px}.kpi .label{font-size:11px;color:#778493}.kpi .value{font-size:26px;font-weight:700;margin-top:12px;letter-spacing:-.5px}.kpi .foot{color:#8e9ba8;font-size:10px;margin-top:6px}.toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:15px}.field{display:flex;flex-direction:column;gap:6px;min-width:0}.field label{font-size:11px;color:#677787;font-weight:700}.control{border:1px solid #cbd5df;border-radius:6px;background:#fff;padding:10px 11px;width:100%;outline:none;min-height:37px}.control:focus{border-color:#6383a0;background:#fafcff}.toolbar .control{width:auto;min-width:148px}.toolbar .search{min-width:190px}.caption{font-size:10px;color:#8b98a6;margin-top:6px}.hint{padding:11px 14px;background:#f3f6fa;border:1px dashed #c8d5e3;border-radius:7px;color:#627383;font-size:11px;line-height:1.55}.tablewrap{overflow:auto}table{border-collapse:collapse;width:100%;font-size:11px}th{text-align:left;color:#718091;font-size:10px;background:#f8fafc;font-weight:700;border-bottom:1px solid #e3e9f0;padding:12px 11px;white-space:nowrap}td{border-bottom:1px solid #eff1f4;padding:12px 11px;vertical-align:middle}tr:last-child td{border-bottom:none}tr.clickable{cursor:pointer}tr.clickable:hover td{background:#f5f8fb}.link{border:0;background:none;color:#3f698f;padding:0;font-weight:700;text-decoration:underline;text-underline-offset:2px}.bar{height:10px;background:#e9edf2;border-radius:10px;overflow:hidden}.bar > div{height:100%;background:#91a4b7;border-radius:10px}.group-label{font-size:10px;text-transform:uppercase;font-weight:800;color:#8192a3;letter-spacing:.7px;margin-bottom:10px}.line{height:1px;background:#e6ecf2;margin:11px 0}.kv{display:grid;grid-template-columns:130px minmax(0,1fr);row-gap:13px;column-gap:12px;font-size:12px}.kv .key{color:#8291a0}.kv .val{font-weight:600}.numbericon{width:31px;height:31px;border-radius:6px;background:#edf2f6;border:1px solid #d6dfe8;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:11px}.metric{display:flex;gap:14px;align-items:center;margin-bottom:13px}.metric .nm{color:#718191;width:130px;flex-shrink:0}.metric .val{font-weight:700;min-width:74px;text-align:right}.metric .bar{flex:1}.legend{display:flex;gap:15px;align-items:center;color:#748494;font-size:10px}.sq{width:9px;height:9px;display:inline-block;margin-right:5px;background:#91a4b7}.sq.alt{background:#c8d2de}.state{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:9px 12px;background:#f7f9fb;border:1px solid #e3eaf1;border-radius:6px;font-size:11px;margin-bottom:8px}.mockbanner{background:#fff;border-bottom:1px solid #e4ebf3;color:#687989;padding:7px 30px;font-size:10px;display:flex;align-items:center;justify-content:space-between}.helpstripe{border:1px dashed #b8c9d8;background:#f7fafc;border-radius:8px;padding:12px 15px;margin-top:16px;font-size:11px;line-height:1.55}.helpstripe b{font-size:11px;color:#456683}.helpstripe .question{color:#657788;margin-top:5px}.tabs{display:flex;border-bottom:1px solid var(--line);gap:4px;padding:0 10px}.tab{padding:13px 15px;border:0;background:white;color:#748596;border-bottom:2px solid transparent;font-size:12px}.tab.active{border-color:#486984;color:#395b77;font-weight:700}.formgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.formSection{font-size:12px;font-weight:700;color:#3e4f62;margin:4px 0 12px}.formSection:not(:first-child){margin-top:22px}.readonly{background:#f3f6f8}.map{height:425px;position:relative;overflow:hidden;border-radius:6px;background:#f1f3f4;background-image:linear-gradient(#dde3ea 1px,transparent 1px),linear-gradient(90deg,#dde3ea 1px,transparent 1px);background-size:42px 42px}.maproad{position:absolute;background:#fff;border:1px solid #d0d9e2;height:18px;width:120%;transform-origin:center;opacity:.95}.maproad.a{top:22%;left:-15%;transform:rotate(-12deg)}.maproad.b{top:57%;left:-10%;transform:rotate(17deg)}.maproad.c{top:53%;left:-5%;transform:rotate(-55deg)}.maproad.d{top:82%;left:-2%;transform:rotate(-8deg)}.pin{position:absolute;border-radius:6px;border:1px solid #69849c;background:white;padding:6px 8px;box-shadow:0 3px 7px #b6c2cd99;font-size:10px;white-space:nowrap;cursor:pointer;z-index:3}.pin::before{content:'●';color:#587d95;margin-right:4px}.pin.highlight{border-color:#355f80;background:#e5edf5;font-weight:700}.maparea{position:absolute;left:20%;top:30%;width:180px;height:95px;border-radius:50%;background:#dde8e9bb;border:2px dashed #9cb6c1;display:flex;align-items:center;justify-content:center;font-size:10px;color:#68838d;transform:rotate(-13deg)}.map-footer{display:flex;gap:12px;color:#6b7b88;font-size:10px;padding:10px 4px}.timeline{display:flex;justify-content:space-between;position:relative;margin:7px 4px 12px;gap:2px}.timeline::before{content:'';position:absolute;top:14px;left:5%;right:5%;height:2px;background:#dce4ec}.step{text-align:center;position:relative;max-width:110px;z-index:1;flex:1}.step .circle{display:flex;margin:0 auto 7px;width:28px;height:28px;border-radius:50%;background:#fff;border:2px solid #bacad7;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:#6e869a}.step.done .circle{background:#dfeaf1;border-color:#64839c;color:#42627a}.step .slabel{font-size:10px;line-height:1.4;color:#526477}.step .stime{color:#8798a6;font-size:9px;margin-top:3px}.docrow{display:grid;grid-template-columns:38px 1fr auto;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid #eef2f5}.docrow:last-child{border:none}.document{border:1px solid #d6dfe7;border-radius:5px;width:33px;height:35px;background:#f5f7fa;display:flex;justify-content:center;align-items:center;font-size:15px}.chart{width:100%;height:185px}.chart-tall{height:224px}.sidecard{padding:14px}.vehicleRow{padding:11px;border:1px solid #e0e6ed;border-radius:7px;margin-bottom:9px;cursor:pointer;background:#fff}.vehicleRow.active{background:#eef4fa;border-color:#b6c9db}.tag{display:inline-flex;padding:4px 7px;background:#f2f5f8;border:1px solid #dfe6ec;border-radius:4px;color:#687889;font-size:10px}.checklist{display:grid;grid-template-columns:18px minmax(0,1fr) auto;gap:8px;align-items:center;padding:11px 0;border-bottom:1px solid #edf1f5}.checklist:last-child{border:none}.check{width:14px;height:14px;border:1px solid #b5c5d3;border-radius:3px;background:#edf4f7;color:#617f91;text-align:center;line-height:12px;font-size:11px}.check.miss{background:#fff}.pills{display:flex;gap:7px;flex-wrap:wrap}.pill{padding:7px 12px;border-radius:16px;border:1px solid #d9e0e7;background:#fff;font-size:11px}.pill.active{background:#e8eff6;border-color:#b8cddd;font-weight:700;color:#42627d}.helpbox{border-left:3px solid #a8bbc9;padding:10px 12px;background:#f6f9fb;font-size:11px;line-height:1.55;color:#637689}.empty{display:flex;align-items:center;justify-content:center;flex-direction:column;min-height:160px;gap:9px;color:#8b99a8;font-size:12px;border:1px dashed #ced8e1;border-radius:7px}.footer{padding:8px 30px 20px;color:#91a0ad;font-size:10px}.modalBg{position:fixed;inset:0;background:#27384977;z-index:20;display:flex;align-items:center;justify-content:center}.modal{background:#fff;border-radius:12px;border:1px solid #d5dce6;box-shadow:0 14px 50px #1f354455;padding:23px;max-width:440px;width:90%;line-height:1.6}.toast{position:fixed;right:23px;bottom:22px;background:#31465b;color:white;padding:12px 18px;border-radius:8px;box-shadow:0 10px 20px #43566644;font-size:12px;z-index:50;max-width:370px}.noPrint{}@media(max-width:1250px){.side{width:215px;min-width:215px}.content{padding:23px 20px}.g4{grid-template-columns:repeat(2,1fr)}.g260{grid-template-columns:220px minmax(0,1fr)}.g330{grid-template-columns:minmax(0,1fr) 250px}}@media(max-width:850px){.side{width:65px;min-width:65px}.brand{padding:25px 5px;text-align:center}.brandname{font-size:12px}.brand small,.menu-label,.nav .txt,.sidefoot{display:none}.nav{justify-content:center}.content{padding:16px}.g2,.g3,.g4,.g65,.g70,.g260,.g330,.g220{grid-template-columns:1fr}.header{padding:0 16px}.pagehead{flex-direction:column}}
 
@@ -29,23 +30,437 @@ html{background:#f4f6f8}body{font-family:Inter,Arial,'Segoe UI',sans-serif;backg
 @media(max-width:1250px){.side{width:212px;min-width:212px}.g4{grid-template-columns:repeat(2,minmax(0,1fr))}.g330{grid-template-columns:minmax(0,1fr) 270px}.content{padding:21px}.v2-quick{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:850px){.side{width:62px;min-width:62px}.brand{padding:24px 2px}.brandname{font-size:0}.brandname:before{font-size:27px;margin:0}.brand small,.sidefoot,.nav .txt,.menu-label{display:none}.nav{justify-content:center}.nav .id{min-width:26px}.header{padding:0 13px}.header-title,.header .chip.blue{display:none}.content{padding:17px}.g2,.g3,.g4,.g65,.g70,.g260,.g330,.g220{grid-template-columns:1fr}.pagehead{flex-direction:column}.v2-quick{grid-template-columns:1fr 1fr}.toolbar .control{flex:1;width:100%;min-width:115px}}
 
-.gps-kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:15px}.gps-kpi{padding:14px 15px}.gps-kpi .n{font-size:22px;font-weight:900;margin-top:5px}.gps-main{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:15px}.gps-detail-list{display:grid;grid-template-columns:125px 1fr;gap:9px 12px;font-size:12px}.gps-detail-list .k{color:#738393}.gps-detail-list .v{font-weight:750;color:#26313b;min-width:0}.gps-alert{background:#fff1f1;border:1px solid #ffd0d0;color:#b72727;border-radius:9px;padding:11px 12px;font-weight:800}.gps-ok{background:#eaf8f1;border:1px solid #c9edd9;color:#16754b;border-radius:9px;padding:11px 12px;font-weight:800}.gps-tabs{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:12px}.gps-tabs .chip{cursor:default}.gps-summary{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px}.gps-summary .mini{background:#f8fafb;border:1px solid #e5ebef;border-radius:9px;padding:11px}.gps-summary .mini b{display:block;font-size:13px;margin-top:4px}.gps-table tbody tr.active{background:#fff7d6}.gps-table tbody tr{cursor:pointer}.gps-section-title{font-size:12px;font-weight:900;color:#28333d;margin:0 0 10px;text-transform:uppercase;letter-spacing:.04em}.gps-source{font-size:10px;color:#8b98a4;margin-top:8px}.gps-route-box{min-height:155px;background:linear-gradient(135deg,#eff7f4,#f8fafb 52%,#eef5fb);position:relative;border:1px solid #dfe7eb;border-radius:10px;overflow:hidden}.gps-route-box:before,.gps-route-box:after{content:'';position:absolute;height:8px;background:#bdd5e6;border-radius:20px;transform:rotate(-12deg)}.gps-route-box:before{width:72%;left:7%;top:46%}.gps-route-box:after{width:55%;left:35%;top:63%;transform:rotate(19deg)}.gps-dot{position:absolute;z-index:2;background:#ffcc00;border:3px solid #fff;box-shadow:0 2px 8px #0002;border-radius:50%;width:22px;height:22px}.gps-dot.red{background:#e74c3c}.gps-map-label{position:absolute;z-index:3;background:#fff;border:1px solid #dce5ea;border-radius:7px;padding:7px 9px;font-size:10px;font-weight:800;box-shadow:0 3px 10px #0001}@media(max-width:1100px){.gps-main{grid-template-columns:1fr}.gps-summary{grid-template-columns:repeat(3,minmax(0,1fr))}.gps-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:700px){.gps-summary,.gps-kpis{grid-template-columns:1fr 1fr}.gps-detail-list{grid-template-columns:110px 1fr}}
-</style></head><body><div class="app"><aside class="side"><div class="brand"><div class="brandname">HOA ĐÔ<small>FLEET MANAGEMENT</small></div></div><nav class="menu" id="nav"></nav><div class="sidefoot"><strong>HOA ĐÔ · PROTOTYPE V3 GPS</strong><br/>BA / UX review · 10 màn hình<br/>Dữ liệu minh họa, không kết nối hệ thống thật</div></aside><section class="main"><div class="header"><div><strong>HOA ĐÔ · QUẢN LÝ ĐỘI XE &amp; MÁY CÔNG TRÌNH</strong><div class="header-title">Điều hành vận chuyển · GPS · Đối soát · Nhiên liệu</div></div><div class="row"><span class="chip">✦ Dữ liệu giả lập</span><span class="chip blue">Nhân sự quản lý – Demo</span></div></div><div class="mockbanner"><span>BẢN DEMO V2 · Dữ liệu giả lập và quy tắc nghiệp vụ chưa được khách hàng phê duyệt.</span><span id="trail">S01</span></div><div class="content" id="screen"></div><div class="footer">Hoa Đô · Prototype V3 GPS · Chạy độc lập trong trình duyệt · Không có Backend/GPS thật · Đơn vị đo và quy tắc phê duyệt cần chốt.</div></section></div><script>
-const menus=[['TỔNG QUAN',[['S01','Dashboard tổng quan'],['S10','Tiến độ dự án']]],['GIÁM SÁT & VẬN HÀNH',[['S02','Giám sát GPS'],['S03','Phương tiện'],['S04','Chuyến vận chuyển'],['S07','Đối soát chứng từ']]],['NHIÊN LIỆU',[['S08','Tổng quan nhiên liệu'],['S09','Chi tiết nhiên liệu']]]];
+/* ================= HOA DO V3: LIGHT ENTERPRISE DESIGN ================= */
+:root{
+  --ink:#19324b;--muted:#708397;--line:#e3eaf1;--pale:#f5f8fc;--white:#fff;
+  --blue:#275b8a;--bluebg:#eaf2fd;--warn:#986415;--warnbg:#fff4dd;
+  --danger:#b54743;--dangerbg:#fff0ec;--good:#177453;--goodbg:#e9f8f0;
+  --brand:#df9d12;--brand-soft:#fff6df;--shadow:0 6px 22px rgba(32,58,84,.045),0 1px 3px rgba(32,58,84,.04);
+}
+html{scroll-behavior:smooth}
+body{font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;font-size:13px;color:var(--ink);background:#f3f6fa;-webkit-font-smoothing:antialiased}
+button,input,select,textarea{font-family:inherit}
+button:focus-visible,[role=button]:focus-visible,.control:focus-visible{outline:3px solid rgba(232,169,45,.38);outline-offset:2px}
+.side{width:250px;min-width:250px;background:#fff;border-right:1px solid #e4ebf3;box-shadow:4px 0 22px rgba(38,66,94,.024);z-index:6}
+.brand{height:83px;padding:23px 21px 18px;border-color:#edf0f5;background:linear-gradient(130deg,#fff 58%,#fff9ed)}
+.brandname{font-size:19px;color:#17344c;letter-spacing:.1px;line-height:1.12}
+.brandname:before{background:linear-gradient(140deg,#ffc851,#d8940b)!important;border-radius:4px!important;transform:rotate(-8deg);box-shadow:0 5px 13px #eeb94a30}
+.brand small{font-size:9px;letter-spacing:2px;color:#778799;margin-top:7px}
+.menu{padding:18px 12px}
+.menu-label{font-size:9px;color:#94a2b1;padding:17px 13px 9px;letter-spacing:1.2px}
+.nav{min-height:47px;margin:3px 0;padding:11px 12px;border-radius:10px;color:#597089;font-size:12.5px;font-weight:600;transition:background .18s,color .18s,transform .2s,box-shadow .2s}
+.nav .id{font-size:10px;border:0;background:#f0f4f8;color:#8796a6;border-radius:6px;padding:5px 5px;min-width:30px}
+.nav:hover{background:#f3f7fb;color:#173b5b;transform:translateX(2px)}
+.nav.active,.nav.active:hover{background:linear-gradient(90deg,#fff2cc,#fff8e7);color:#815600;box-shadow:inset 3px 0 0 #e7aa2b;transform:none;font-weight:800}
+.nav.active .id{color:#966616;background:#ffe9ae}
+.sidefoot{background:#f9fbfd;border-top:1px solid #e9eef4;padding:19px 20px;color:#7b8896;font-size:10px}
+.sidefoot strong{color:#916719}
+.main{background:#f4f7fb}
+.header{height:83px;background:rgba(255,255,255,.97);border-bottom:1px solid #e7edf3;padding:0 32px;color:#19324b;position:relative}
+.header>div:first-child>strong{color:#213a52;font-size:12.5px;letter-spacing:.16px}
+.header-title{color:#8897a7;font-size:11px;margin-top:6px}
+.header .chip{background:#f3f6fa;color:#6f7e8f;border:1px solid #e6ecf1}
+.header .chip.blue{background:#eaf5f3;border-color:#d8eee7;color:#257b63}
+.mockbanner{background:#fffdf7;color:#98732d;border-bottom:1px solid #f4ead3;padding:10px 32px;font-size:10.5px}
+.mockbanner #trail{color:#a47a28}
+.content{max-width:1520px;padding:33px 34px 52px}
+.pagehead{margin-bottom:23px;align-items:center}
+.eyebrow{color:#b18335;font-size:10px;letter-spacing:1.3px}
+.pagehead h1{color:#19324b;font-size:27px;font-weight:800;letter-spacing:-.8px;margin:7px 0 7px}
+.desc{font-size:12.5px;color:#74859a;line-height:1.65}
+.btn{border-radius:9px;padding:10px 16px;border:1px solid #dce5ed;color:#344d64;background:#fff;font-weight:700;font-size:12px;min-height:39px;box-shadow:0 1px 2px #24374908;transition:transform .2s,background .2s,border-color .2s,box-shadow .2s}
+.btn:hover{background:#fffaf0;border-color:#ecc66e;box-shadow:0 4px 12px #8a672116;transform:translateY(-1px)}
+.btn:active{transform:translateY(1px) scale(.99)}
+.btn.primary{color:#fff;background:linear-gradient(135deg,#1d527d,#276b9e);border-color:#286b9c;box-shadow:0 5px 13px #2b6d9b25}
+.btn.primary:hover{color:white;background:linear-gradient(135deg,#17466e,#1d608e);border-color:#225b83;box-shadow:0 8px 18px #2b6d9b34}
+.btn.ghost{color:#2a6e9d}
+.panel{background:#fff;border:1px solid #e2eaf2;border-radius:14px;box-shadow:var(--shadow);transition:box-shadow .23s,border-color .23s,transform .23s}
+.panel:hover{border-color:#d8e4ed;box-shadow:0 11px 28px rgba(32,58,84,.065),0 1px 3px rgba(32,58,84,.04)}
+.panelhead{padding:17px 20px;border-bottom-color:#eef2f6}
+.panelhead strong{color:#244059;font-size:13.5px}
+.panelhead>strong::before{background:#e9af3d;width:4px;height:15px;vertical-align:-3px;border-radius:4px}
+.panelbody{padding:20px}
+.grid{gap:18px}
+.kpi{min-height:140px;padding:21px 21px 17px;border:1px solid #e2eaf2;border-radius:14px;isolation:isolate}
+.kpi::before{top:25px;bottom:25px;width:3px;background:#3f89bb}
+.kpi:nth-child(2)::before{background:#e8a835}
+.kpi:nth-child(3)::before{background:#26a37b}
+.kpi:nth-child(4)::before{background:#9a8dda}
+.kpi::after{content:'↗';position:absolute;right:19px;top:18px;border-radius:10px;background:#f0f6fb;color:#4d81a4;width:30px;height:30px;display:grid;place-items:center;font-size:17px;font-weight:500;z-index:-1;transition:transform .25s,background .25s}
+.kpi:nth-child(2)::after{content:'▤';background:#fff7e8;color:#b8882a}
+.kpi:nth-child(3)::after{content:'◈';background:#eaf8f2;color:#268d6d}
+.kpi:nth-child(4)::after{content:'✓';background:#f2efff;color:#7c70be}
+.kpi .label{color:#62788d;font-size:12px;font-weight:600;padding-right:24px}
+.kpi .value{font-weight:800;font-size:30px;color:#19344c;margin-top:16px;letter-spacing:-1px}
+.kpi .foot{font-size:11px;color:#8c9dad;margin-top:7px;line-height:1.5}
+.kpi[data-go]:hover{border-color:#bcd9eb;transform:translateY(-4px);box-shadow:0 15px 30px #31577816}
+.kpi[data-go]:hover::after{transform:translate(2px,-2px);background:#e5f2fd}
+.toolbar{padding:15px 17px;border:1px solid #e3eaf2;background:#fff;border-radius:12px;box-shadow:var(--shadow);gap:10px;margin-bottom:19px}
+.control{min-height:41px;border:1px solid #dbe4ed;background:#fff;border-radius:9px;font-size:12.5px;padding:10px 12px;transition:border-color .2s,box-shadow .2s,background .2s}
+.control:hover{border-color:#aebfd0}
+.control:focus{border-color:#4d93bd;background:#fff;box-shadow:0 0 0 3px #4394c522}
+.field label{font-size:12px;color:#55697f;font-weight:700}
+.caption,.tiny{font-size:11px}
+.small{font-size:12px}
+.tablewrap{border-radius:10px;overflow:auto}
+table{font-size:12px}
+th{padding:14px 13px;font-size:11px;letter-spacing:.15px;color:#657b8f;background:#f7f9fc;border-color:#e5ecf4}
+td{padding:15px 13px;font-size:12px;line-height:1.5;border-color:#eef2f7}
+tr.clickable{transition:background .17s}
+tr.clickable:hover td{background:#f2f8fd}
+tr.clickable:active td{background:#e8f3fc}
+.link{color:#256c9e;text-decoration:none}
+.link:hover{text-decoration:underline;color:#104d7d}
+.chip{font-size:11px;line-height:1.3;padding:6px 10px;border-radius:7px;letter-spacing:.01em}
+.chip.blue{background:#edf5ff;color:#2a6b9b;border-color:#dce9fa}
+.chip.warn{background:#fff6e8;color:#a46d17;border-color:#f7e6c9}
+.chip.good{background:#eaf8f0;color:#187d56;border-color:#d3ebdd}
+.chip.danger{background:#fff0ec;color:#b14645;border-color:#f2d5d0}
+.bar{height:11px;background:#eaf0f5;border-radius:20px}
+.bar>div{background:linear-gradient(90deg,#60a7d5,#2d75ac);border-radius:20px;transform-origin:left;animation:grow-v3 .7s .1s backwards cubic-bezier(.2,.8,.2,1)}
+.sq{background:#337fb4}.sq.alt{background:#d5e1ec}
+.helpstripe{background:#fffdf8;border-color:#ead8a7;color:#796d55;border-radius:12px;padding:15px 18px}
+.helpstripe b{color:#a57421}
+.hint{background:#fffbf2;border-color:#f3e5c5;color:#836c42;font-size:12px}
+.v2-status-alert{background:#fff9ee;border-color:#f1dfa9;color:#8d651d;font-size:12px}
+.v2-quick{gap:14px;margin-top:4px}
+.v2-quick button{background:linear-gradient(160deg,#fff,#fbfdff);border:1px solid #e4edf4;border-radius:12px;padding:18px 17px;font-size:12px;color:#37516a;transition:all .23s}
+.v2-quick button:hover{background:#f3f9fe;border-color:#b6d3e6;transform:translateY(-3px);box-shadow:0 9px 18px #356e9720}
+.v2-quick .em{color:#317eae}
+.nav-v3-icon{width:21px;display:inline-flex;align-items:center;justify-content:center;color:inherit;opacity:.8}
+.nav-v3-icon svg{width:17px;height:17px;stroke-width:1.9}
+.nav .id{display:none}
+.nav{gap:12px;padding:12px 13px}
+.nav.active .nav-v3-icon{opacity:1}
+.v3-review{display:inline-flex;align-items:center;gap:7px;border:1px solid #dfe7ef;color:#4c687c;background:#fff;border-radius:9px;padding:9px 11px;cursor:pointer;font-size:11px;font-weight:700;transition:all .2s}
+.v3-review:hover{background:#f4f9fd;border-color:#b6d4e7}
+.v3-review[aria-pressed=true]{background:#fff6df;border-color:#e8c778;color:#895c10}
+.hide-review-notes .helpstripe{display:none!important}
+.footer{background:#f4f7fb;color:#97a5b3;border-top:1px solid #e7edf3;font-size:11px;padding:16px 34px}
+.chart{overflow:visible}
+.chart rect{transition:fill .3s;transform-box:fill-box;transform-origin:bottom;animation:grow-v3 .65s ease backwards}
+.map{background-color:#eaf2f0;background-image:linear-gradient(30deg,rgba(255,255,255,.35) 1px,transparent 1px),linear-gradient(120deg,rgba(255,255,255,.5) 1px,transparent 1px);border:1px solid #deebeb;border-radius:12px}
+.maparea{background:#dceae0aa;border:2px dashed #a6c4b1}
+.pin{border-radius:9px;padding:8px 11px;border-color:#b4cbda;box-shadow:0 5px 14px #35526d29;transition:box-shadow .2s,transform .2s,background .2s}
+.pin:hover{transform:translateY(-4px);box-shadow:0 10px 20px #35526d30}
+.pin.highlight{background:#e8f5fc;border-color:#448cb8}
+.maproad{border-color:#d8e1e6}
+.modalBg{backdrop-filter:blur(5px);background:rgba(21,44,68,.44)!important;animation:fade-v3 .2s ease-out both}
+.modal{border-radius:18px!important;border:1px solid #e5edf5;box-shadow:0 24px 75px rgba(23,38,58,.24)!important;animation:pop-v3 .27s cubic-bezier(.2,.85,.25,1.1) both}
+.toast{position:fixed;right:26px;bottom:27px;z-index:99999;max-width:min(420px,calc(100vw - 40px));padding:14px 18px 14px 47px!important;color:#1e5944!important;background:#effaf3!important;border:1px solid #c7ebd7!important;border-radius:12px!important;box-shadow:0 16px 32px #263c5329!important;font-weight:700;font-size:12.5px;line-height:1.5;animation:slide-v3 .28s cubic-bezier(.15,.8,.2,1.05) both}
+.toast:before{content:'✓';position:absolute;left:16px;top:50%;transform:translateY(-50%);font-size:17px;color:#238f64}
+.toast.warning{color:#8f6119!important;background:#fff9ed!important;border-color:#f3dfb9!important}
+.toast.warning:before{content:'!';color:#bf8a19}
+.toast.error{color:#9c433b!important;background:#fff1ee!important;border-color:#f0cec8!important}
+.toast.error:before{content:'!';color:#bd534c}
+#screen>*{animation:rise-v3 .38s ease both}
+#screen> :nth-child(2){animation-delay:.035s}
+#screen> :nth-child(3){animation-delay:.065s}
+#screen> :nth-child(4){animation-delay:.095s}
+#screen> :nth-child(5){animation-delay:.12s}
+#screen .grid>.panel{animation:rise-v3 .4s ease both}
+#screen .grid>.panel:nth-child(2){animation-delay:.055s}
+#screen .grid>.panel:nth-child(3){animation-delay:.1s}
+#screen .grid>.panel:nth-child(4){animation-delay:.14s}
+[role=button]{cursor:pointer}
+.v3-ripple{position:absolute;pointer-events:none;border-radius:50%;background:#7db3db55;transform:scale(0);animation:ripple-v3 .6s ease-out forwards}
+@keyframes rise-v3{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fade-v3{from{opacity:0}to{opacity:1}}
+@keyframes pop-v3{from{opacity:0;transform:translateY(16px) scale(.965)}to{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes slide-v3{from{opacity:0;transform:translateX(28px)}to{opacity:1;transform:translateX(0)}}
+@keyframes grow-v3{from{transform:scaleY(.1)}to{transform:scaleY(1)}}
+@keyframes ripple-v3{to{opacity:0;transform:scale(4)}}
+@media(max-width:1250px){.side{width:220px;min-width:220px}.content{padding:25px 22px 42px}}
+@media(max-width:850px){.side{width:66px;min-width:66px}.brand{padding:24px 2px;text-align:center}.brandname{font-size:0!important;white-space:nowrap}.brandname::before{font-size:24px!important;margin:0!important;display:inline-block}.nav{justify-content:center;padding:13px 3px}.nav .nav-v3-icon svg{width:20px;height:20px}.header{padding:0 18px}.v3-review{font-size:0;padding:9px}.v3-review:before{content:'✎';font-size:15px}.mockbanner{padding:10px 18px}.content{padding:20px 17px 38px}.footer{padding:14px 18px}}
+@media(max-width:560px){.header>div:first-child>strong{font-size:11px}.header .chip{display:none}.pagehead h1{font-size:23px}.v2-quick{grid-template-columns:1fr 1fr}.kpi{min-height:120px}.toolbar{align-items:stretch}.toolbar .control{min-width:100%}.modal{width:calc(100vw - 32px)!important;max-width:calc(100vw - 32px)!important}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+
+
+/* V3.1 — login screen / browser-only simulated access (not real authentication) */
+body:not(.is-authenticated) .app{display:none!important}
+body.is-authenticated .login-page{display:none!important}
+.login-page{min-height:100vh;display:grid;grid-template-columns:minmax(0,1.06fr) minmax(460px,.94fr);background:#f9fbfd;font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;color:#1c2d40}
+.login-showcase{background:radial-gradient(circle at 85% 38%,#24576f88,transparent 43%),linear-gradient(138deg,#0d2438 2%,#12384e 52%,#0c2739 100%);position:relative;overflow:hidden;color:#fff;isolation:isolate;min-height:760px}
+.login-showcase::before{content:'';position:absolute;inset:0;background-image:radial-gradient(#bde4ec20 1px,transparent 1px);background-size:28px 28px;mask-image:linear-gradient(to top,#0008,transparent 85%);z-index:-1}
+.login-visual-glow{position:absolute;border:1px solid rgba(170,229,240,.11);border-radius:50%;pointer-events:none}
+.login-visual-glow-one{width:570px;height:570px;right:-300px;top:-210px;box-shadow:0 0 0 60px #82d0ea09,0 0 0 125px #82d0ea05}
+.login-visual-glow-two{width:500px;height:500px;left:-285px;bottom:-325px;box-shadow:0 0 0 75px #5cb4dc06}
+.login-showcase-inner{width:min(100%,800px);min-height:100vh;padding:48px clamp(35px,6vw,92px) 34px;display:flex;flex-direction:column;justify-content:space-between;gap:50px;margin:auto}
+.login-showcase-brand{display:flex;align-items:center;gap:13px;letter-spacing:.8px}.login-showcase-brand strong{display:block;font-size:24px;letter-spacing:1.1px;line-height:1.15}.login-showcase-brand small{display:block;color:#bed1dd;font-size:9px;letter-spacing:2.5px;margin-top:5px;font-weight:700}
+.login-logo-mark{display:grid;place-items:center;position:relative;width:50px;height:50px;flex:none;border-radius:14px;border:1px solid #eac66f80;background:linear-gradient(140deg,#f6c965,#d59931);color:#142b39;box-shadow:0 8px 20px #0003;font-size:18px;font-weight:900;letter-spacing:-5px;padding-right:5px}.login-logo-mark span{position:relative;left:1px}
+.login-intro{position:relative;z-index:1}.login-eyebrow{font-size:10px;letter-spacing:2px;font-weight:800;color:#f2c971;display:flex;align-items:center;gap:11px}.login-dot{width:7px;height:7px;background:#f4c565;border-radius:50%;box-shadow:0 0 0 5px #f4c56516}.login-intro h1{font-size:clamp(35px,3.2vw,51px);line-height:1.19;letter-spacing:-1.5px;max-width:600px;margin:24px 0 18px;font-weight:780}.login-intro h1 em{font-style:normal;color:#f7c968}.login-intro>p{color:#c5d7df;font-size:14px;max-width:490px;line-height:1.95;margin:0}
+.login-preview{border:1px solid #ffffff2f;background:#ffffff12;backdrop-filter:blur(16px);border-radius:16px;box-shadow:0 25px 70px #00162655;overflow:hidden;position:relative;max-width:610px;animation:login-float-in .65s cubic-bezier(.2,.8,.2,1) both}.login-preview-top{height:44px;border-bottom:1px solid #ffffff29;display:flex;align-items:center;gap:14px;padding:0 17px;color:#bfcfd8;font-size:9px;font-weight:700;letter-spacing:1px}.login-preview-dots{display:flex;gap:5px}.login-preview-dots i{width:6px;height:6px;border-radius:50%;background:#b5c9d266}.login-preview-dots i:first-child{background:#f5c45f}.login-preview-live{margin-left:auto;color:#bedbd0;display:flex;gap:6px;align-items:center}.login-preview-live b{width:6px;height:6px;border-radius:50%;background:#77d9a7;box-shadow:0 0 0 4px #77d9a722}.login-preview-grid{padding:17px;display:grid;grid-template-columns:1fr 1fr;gap:12px}.login-preview-metric,.login-preview-track{background:#ffffff16;border:1px solid #ffffff20;border-radius:10px;padding:17px 18px}.login-preview-metric span{display:block;font-size:10px;color:#c3d6df}.login-preview-metric strong{display:block;font-size:24px;color:#fff;margin:10px 0 4px}.login-preview-metric small{font-size:10px;color:#b1c5d0}.login-preview-track{grid-column:1/-1;padding:17px 18px 15px}.login-track-heading{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:9px;color:#c5d4de;letter-spacing:.5px}.login-preview-success{color:#adedd0;background:#3da7791f;border:1px solid #64c7a24e;padding:5px 8px;border-radius:5px;white-space:nowrap}.login-route-line{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:20px 18px 5px}.login-route-point{width:33px;height:33px;border-radius:50%;display:grid;place-items:center;flex:none;border:1px solid #a8c8d7;background:#225269}.login-route-point svg{width:18px;height:18px}.login-route-point.last{background:#dfae52;color:#142b39;border-color:#dfae52}.login-route-dashes{height:2px;flex:1;background:repeating-linear-gradient(90deg,#c6dbe4 0 9px,transparent 9px 17px)}.login-route-truck{width:39px;height:39px;border-radius:12px;background:#f2c46a;color:#142b39;display:grid;place-items:center;box-shadow:0 0 0 5px #f2c46a1d;animation:login-breathe 3s ease-in-out infinite}.login-route-truck svg{width:25px;height:25px}.login-route-labels{display:flex;justify-content:space-between;gap:15px;color:#bdced8;font-size:9px}.login-route-labels span:nth-child(2){color:#f5d494}.login-showcase-bottom{margin:0;display:flex;flex-wrap:wrap;align-items:center;gap:10px;color:#c3d7dd;font-size:10px;letter-spacing:1px}.login-showcase-bottom>span:first-child{color:#e8bc61}.login-showcase-bottom-note{margin-left:auto;letter-spacing:0;color:#90adb9;font-size:10px}
+.login-entry{display:flex;flex-direction:column;align-items:stretch;justify-content:space-between;padding:44px clamp(32px,5.4vw,92px) 26px;min-width:0;background:radial-gradient(circle at 96% 0%,#f1f6f9,transparent 48%),#fcfdff}.login-entry-top{display:flex;align-items:center;gap:9px;letter-spacing:1px;color:#607a8e;font-weight:800;font-size:10px;white-space:nowrap}.login-entry-symbol{color:#d4a346;font-size:16px}.login-demo-pill{margin-left:auto;border-radius:7px;padding:7px 10px;color:#977125;background:#fff4d8;border:1px solid #f5e5ba;letter-spacing:1px;font-size:9px}.login-form-wrap{width:100%;max-width:450px;margin:30px auto;animation:login-float-in .6s ease-out both}.login-welcome-icon{width:52px;height:52px;border-radius:15px;background:#eaf3f7;border:1px solid #d5e6ed;color:#366583;display:grid;place-items:center;margin-bottom:28px}.login-welcome-icon svg{width:26px;height:26px}.login-form-overline{font-size:10px;letter-spacing:1.65px;color:#b0812a;font-weight:800}.login-form-heading h2{font-size:clamp(27px,2.5vw,33px);letter-spacing:-.8px;line-height:1.18;margin:12px 0 12px;color:#162b3d}.login-form-heading p{font-size:13px;line-height:1.7;margin:0;color:#77899a;max-width:380px}.login-form{display:flex;flex-direction:column;gap:22px;margin-top:35px}.login-field{display:flex;flex-direction:column;gap:10px}.login-field label{font-size:12px;color:#344a5c;font-weight:750}.login-field label span{color:#ce8349}.login-label-row{display:flex;align-items:center;justify-content:space-between}.login-inline-caption{font-size:10px;color:#9cabb9}.login-input-wrap{height:54px;display:flex;align-items:center;gap:12px;background:white;border:1.5px solid #dbe4ec;border-radius:11px;padding:0 15px;box-shadow:0 4px 14px #24405506;transition:border .2s,box-shadow .2s,transform .2s}.login-input-wrap:hover{border-color:#a9bdca}.login-input-wrap:focus-within{border-color:#457b9c;box-shadow:0 0 0 4px #4f8fb916}.login-input-wrap.invalid{border-color:#cb7777;background:#fffafa}.login-input-wrap>svg{width:19px;height:19px;color:#8299ab;flex:none}.login-input-wrap input{border:0;background:transparent;outline:0;height:100%;flex:1;min-width:0;font-size:13px;color:#213549}.login-input-wrap input::placeholder{color:#a3b0bd}.login-eye{border:0!important;background:transparent!important;color:#8595a4!important;display:grid;place-items:center;flex:none;border-radius:7px;width:34px;height:34px;padding:6px!important}.login-eye:hover{background:#eaf0f4!important;color:#486c86!important}.login-eye svg{width:19px;height:19px}.login-error{background:#fff4f2;border:1px solid #f2c7c0;border-radius:9px;padding:12px 14px;color:#a83d38;font-size:12px;line-height:1.5}.login-error[hidden]{display:none}.login-submit{height:54px;border:0;border-radius:11px;background:linear-gradient(110deg,#2e6887,#1b4a68);color:#fff;box-shadow:0 12px 25px #23547529;font-size:13px;font-weight:780;display:flex;justify-content:center;align-items:center;gap:11px;transition:transform .18s,box-shadow .18s,filter .18s;position:relative}.login-submit:hover:not(:disabled){transform:translateY(-2px);box-shadow:0 16px 30px #23547535;filter:brightness(1.04)}.login-submit:active:not(:disabled){transform:translateY(0)}.login-submit svg{width:18px;height:18px;position:absolute;right:19px}.login-submit .login-spinner{display:none;width:17px;height:17px;border:2px solid #ffffff66;border-top-color:#fff;border-radius:50%;animation:login-spin .65s linear infinite}.login-submit.is-loading .login-spinner{display:block}.login-submit.is-loading>svg{display:none}.login-submit:disabled{cursor:wait;opacity:.87}.login-demo-access{border:1px solid #e1e9ee;background:#f4f8fb;border-radius:12px;padding:17px 18px;margin-top:27px}.login-demo-access-heading{display:flex;align-items:center;gap:9px;font-size:12px;color:#345d78}.login-demo-access-heading svg{height:18px;width:18px}.login-demo-info{display:flex;gap:6px;flex-direction:column;margin-top:13px;font-size:11px;color:#77899a;line-height:1.7}.login-demo-info b{color:#344e63;font-weight:730}.login-fill-btn{padding:0;border:0;background:transparent;color:#267398;font-size:11px;font-weight:780;margin-top:12px;text-decoration:none;transition:color .2s}.login-fill-btn:hover{color:#115273;text-decoration:underline}.login-secure-note{font-size:10px;line-height:1.7;color:#91a0ad;display:flex;gap:8px;align-items:flex-start;margin:22px 0 0}.login-secure-note svg{width:15px;height:15px;flex:none}.login-entry-footer{display:flex;justify-content:space-between;gap:20px;color:#9ba8b4;font-size:10px;border-top:1px solid #e8eef2;padding-top:18px;line-height:1.6}
+.hd-account{display:flex;align-items:center;gap:9px;background:#f3f7fa;border:1px solid #e2eaf0;border-radius:9px;padding:7px 9px}.hd-account-avatar{display:grid;place-items:center;width:29px;height:29px;border-radius:8px;background:#dceaf2;color:#315d7a;font-weight:800;font-size:11px}.hd-account-label{font-size:11px;line-height:1.3;color:#38536a}.hd-account-label small{font-size:9px;color:#8799a8;display:block}.hd-logout{border:1px solid #c9d8e3;background:white;color:#486981;border-radius:7px;padding:7px 10px;font-size:11px;font-weight:700}.hd-logout:hover{background:#eaf3f8;border-color:#8daabd}.hd-logout:focus-visible,.login-fill-btn:focus-visible,.login-eye:focus-visible,.login-submit:focus-visible{outline:3px solid #77abc7;outline-offset:2px}
+@keyframes login-float-in{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}@keyframes login-breathe{50%{box-shadow:0 0 0 9px #f2c46a10}}@keyframes login-spin{to{transform:rotate(360deg)}}
+@media(max-width:1100px){.login-page{grid-template-columns:minmax(0,1fr) minmax(400px,.95fr)}.login-showcase-inner{padding:40px}.login-entry{padding:39px}.login-intro h1{font-size:36px}.login-preview-grid{padding:12px}}
+@media(max-width:790px){.login-page{display:flex;flex-direction:column}.login-showcase{min-height:0}.login-showcase-inner{min-height:0;padding:29px 30px 35px;gap:25px}.login-intro h1{font-size:30px;margin:14px 0 9px}.login-intro>p{font-size:12px;line-height:1.65}.login-preview,.login-showcase-bottom{display:none}.login-entry{flex:1;padding:25px 28px}.login-entry-top{margin-bottom:4px}.login-form-wrap{margin:26px auto 40px;max-width:500px}.login-welcome-icon{margin-bottom:17px}}
+@media(max-width:560px){.login-showcase-inner{padding:21px 22px 25px;gap:24px}.login-showcase-brand strong{font-size:20px}.login-logo-mark{height:42px;width:42px}.login-intro h1{font-size:26px}.login-entry{padding:22px}.login-form-wrap{margin:26px auto}.login-form{gap:19px;margin-top:25px}.login-entry-footer{flex-direction:column;gap:4px}.hd-account-label{display:none}.hd-account{padding:4px}.hd-logout{font-size:10px;padding:7px}.login-entry-top{font-size:9px;letter-spacing:0}}
+@media(prefers-reduced-motion:reduce){.login-preview,.login-form-wrap,.login-route-truck{animation:none!important}}
+
+
+/* V3.2 -- Vietnamese-friendly typography and unified Light/Dark design tokens */
+:root{color-scheme:light;--surface:#ffffff;--surface-alt:#f7fafc;--surface-sunken:#f0f5fa;--app-bg:#f3f7fb;--ink:#20364a;--muted:#698093;--line:#e3eaf1;--blue:#26658d;--bluebg:#e9f3fb;--shadow:0 7px 26px rgba(29,62,91,.055),0 1px 2px rgba(29,62,91,.04)}
+html{font-synthesis:none}
+body,.login-page{font-family:'Be Vietnam Pro','Segoe UI',system-ui,sans-serif;letter-spacing:-.015em}
+body{font-size:13px;line-height:1.55;background:var(--app-bg)}
+button,input,select,textarea{font-family:inherit}
+.login-showcase-brand strong,.login-intro h1,.login-form-heading h2,.pagehead h1,.kpi .value,.brandname{font-weight:700;letter-spacing:-.045em}
+.login-intro h1{line-height:1.3;font-size:clamp(32px,3.1vw,46px)}
+.login-intro>p{line-height:1.85}
+.login-form-heading h2{font-size:clamp(26px,2.5vw,32px);line-height:1.4}
+.login-form-heading p{line-height:1.85}
+.login-entry-top,.login-eyebrow,.login-form-overline,.login-preview-top,.menu-label,.eyebrow{letter-spacing:.075em;font-weight:600}
+.login-field label,.login-submit,.login-fill-btn,.hd-logout,.v3-review,.btn{font-weight:600}
+.login-input-wrap input,.login-submit{font-size:13px}
+.login-field label{font-size:12.5px}
+.login-form{gap:19px;margin-top:28px}
+.login-preview{border-radius:22px;box-shadow:0 22px 50px #13385716}
+.login-preview-metric,.login-preview-track{border-radius:13px}
+.login-entry{background:radial-gradient(circle at 96% 5%,#e8f5ff 0,transparent 48%),#ffffff}
+.login-showcase{background:radial-gradient(circle at 82% 30%,#b4dcff99 0,transparent 48%),linear-gradient(135deg,#eff9ff 0%,#d9effb 49%,#c9e4f5 100%);color:#19354d}
+.login-showcase::before{background-image:radial-gradient(#3f7f9b28 1px,transparent 1px)}
+.login-visual-glow{border-color:#5d9fc029}
+.login-showcase-brand small{color:#628196}
+.login-intro h1 em{color:#a66b05}
+.login-intro>p{color:#536f82}
+.login-eyebrow{color:#9b6b12}
+.login-preview{background:#ffffffa8;border-color:#ffffffdf;backdrop-filter:blur(20px)}
+.login-preview-top{color:#557487;border-bottom-color:#d3e7f4}
+.login-preview-metric,.login-preview-track{background:#ffffffba;border-color:#d4e5f0}
+.login-preview-metric span,.login-preview-metric small,.login-track-heading,.login-route-labels{color:#668093}
+.login-preview-metric strong{color:#274d69}
+.login-route-labels span:nth-child(2){color:#9b6a13}
+.login-preview-success{color:#18734d;background:#e8f7ed;border-color:#b4e0c8}
+.login-route-point{color:#ffffff;background:#327b9c}
+.login-route-point.last{color:#152b3c;background:#e9b64d}
+.login-route-dashes{background:repeating-linear-gradient(90deg,#5794aa 0 9px,transparent 9px 17px)}
+.login-showcase-bottom{color:#5a798c}
+.login-showcase-bottom-note{color:#758d9d}
+.login-input-wrap{border-radius:13px}
+.login-submit{border-radius:13px;letter-spacing:0}
+.login-demo-access{border-radius:15px}
+.side,.header,.panel,.toolbar,.control,.tab,.hd-logout,.v3-review{background:var(--surface)}
+.main,.footer{background:var(--app-bg)}
+.pagehead h1{font-size:25px;letter-spacing:-.035em}
+.panelhead strong,.brandname{font-weight:650}
+.kpi .value{font-weight:700}
+.nav{font-weight:550}
+.nav.active,.nav.active:hover{font-weight:650}
+.tablewrap table{font-size:12px}
+/* Theme switch. Both login and app use the same persisted setting. */
+.theme-toggle{appearance:none;display:inline-flex;align-items:center;gap:8px;flex:none;border:1px solid #d8e5ee;background:#ffffffd9;color:#375975;padding:8px 11px;border-radius:999px;font-size:11px;font-weight:650;min-height:37px;box-shadow:0 3px 12px #254f6d0a;transition:background .2s,border-color .2s,color .2s,transform .2s,box-shadow .2s;white-space:nowrap}
+.theme-toggle:hover{transform:translateY(-1px);background:#f1f8ff;border-color:#94bbd2;box-shadow:0 6px 16px #19496815}
+.theme-toggle:active{transform:scale(.97)}
+.theme-toggle:focus-visible{outline:3px solid #edb84d;outline-offset:3px}
+.theme-toggle-sun,.theme-toggle-moon{font-family:'Segoe UI Symbol',sans-serif;font-size:17px;line-height:1}
+.theme-toggle-moon{display:none}
+.theme-toggle-login{margin-left:4px}
+html[data-theme=dark] .theme-toggle-sun{display:none}
+html[data-theme=dark] .theme-toggle-moon{display:inline}
+html[data-theme=dark]{color-scheme:dark;--ink:#edf4fc;--muted:#a8b9ca;--line:#304459;--surface:#182a3d;--surface-alt:#1d3145;--surface-sunken:#122235;--app-bg:#101c2b;--blue:#85bde6;--bluebg:#183952;--warn:#ffd089;--warnbg:#4d3821;--danger:#ffafa5;--dangerbg:#492b30;--good:#80d6ae;--goodbg:#183f35;--shadow:0 10px 26px #00000023,0 1px 4px #0000000e}
+html[data-theme=dark] body{color:var(--ink);background:var(--app-bg)}
+html[data-theme=dark] .login-page{background:#0c1725;color:#eaf4ff}
+html[data-theme=dark] .login-showcase{background:radial-gradient(circle at 88% 38%,#1f5c7c88,transparent 48%),linear-gradient(145deg,#0c1c2c,#112c41 57%,#0c2335);color:#f1f8ff}
+html[data-theme=dark] .login-showcase::before{background-image:radial-gradient(#bed7e227 1px,transparent 1px)}
+html[data-theme=dark] .login-visual-glow{border-color:#b8e4f41a}
+html[data-theme=dark] .login-showcase-brand small{color:#b0cad8}
+html[data-theme=dark] .login-intro h1 em{color:#ffcf78}
+html[data-theme=dark] .login-eyebrow{color:#f1c26b}
+html[data-theme=dark] .login-intro>p{color:#b7cbd9}
+html[data-theme=dark] .login-preview{background:#ffffff0f;border-color:#ffffff2d;box-shadow:0 24px 70px #00000035}
+html[data-theme=dark] .login-preview-top{color:#bed4df;border-bottom-color:#ffffff20}
+html[data-theme=dark] .login-preview-metric,html[data-theme=dark] .login-preview-track{background:#ffffff12;border-color:#ffffff20}
+html[data-theme=dark] .login-preview-metric strong{color:#f2f7ff}
+html[data-theme=dark] .login-preview-metric span,html[data-theme=dark] .login-preview-metric small,html[data-theme=dark] .login-track-heading,html[data-theme=dark] .login-route-labels{color:#bed1dd}
+html[data-theme=dark] .login-route-labels span:nth-child(2){color:#f6d18f}
+html[data-theme=dark] .login-preview-success{color:#a8f1d1;background:#2a805b38;border-color:#65b79266}
+html[data-theme=dark] .login-route-point{background:#1d526b;color:#f2f7ff;border-color:#a8c8d7}
+html[data-theme=dark] .login-route-point.last{background:#e7b252;color:#192d3c}
+html[data-theme=dark] .login-route-dashes{background:repeating-linear-gradient(90deg,#a9c7d6 0 9px,transparent 9px 17px)}
+html[data-theme=dark] .login-showcase-bottom{color:#c3d7e2}
+html[data-theme=dark] .login-showcase-bottom-note{color:#9cb7c8}
+html[data-theme=dark] .login-entry{background:radial-gradient(circle at 90% 5%,#1d3b5090,transparent 43%),#142338}
+html[data-theme=dark] .login-entry-top{color:#b2c6d6}
+html[data-theme=dark] .login-demo-pill{background:#40351e;border-color:#66502a;color:#ffd486}
+html[data-theme=dark] .login-welcome-icon{background:#23445b;color:#b4dcf9;border-color:#355a72}
+html[data-theme=dark] .login-form-overline{color:#f4c476}
+html[data-theme=dark] .login-form-heading h2{color:#edf6fd}
+html[data-theme=dark] .login-form-heading p{color:#a9bfd1}
+html[data-theme=dark] .login-field label{color:#d2dfed}
+html[data-theme=dark] .login-field label span{color:#f0a985}
+html[data-theme=dark] .login-inline-caption{color:#91a8bd}
+html[data-theme=dark] .login-input-wrap{background:#1b3147;border-color:#36516a;box-shadow:none}
+html[data-theme=dark] .login-input-wrap:hover{border-color:#6a93b0}
+html[data-theme=dark] .login-input-wrap:focus-within{border-color:#8cc4e8;box-shadow:0 0 0 3px #5e9dc340}
+html[data-theme=dark] .login-input-wrap.invalid{border-color:#ce7b79;background:#362b38}
+html[data-theme=dark] .login-input-wrap>svg{color:#92aec4}
+html[data-theme=dark] .login-input-wrap input{color:#edf5ff}
+html[data-theme=dark] .login-input-wrap input::placeholder{color:#9aafc0}
+html[data-theme=dark] .login-eye{color:#bdcfdd!important}
+html[data-theme=dark] .login-eye:hover{background:#2b455b!important;color:#eef8ff!important}
+html[data-theme=dark] .login-submit{background:linear-gradient(110deg,#357da2,#286386);box-shadow:0 12px 25px #01080e55;color:#fff}
+html[data-theme=dark] .login-demo-access{background:#1a3045;border-color:#35516a}
+html[data-theme=dark] .login-demo-access-heading{color:#c4e0f4}
+html[data-theme=dark] .login-demo-info{color:#adc1d1}
+html[data-theme=dark] .login-demo-info b{color:#edf7ff}
+html[data-theme=dark] .login-fill-btn{color:#8ac9ee}
+html[data-theme=dark] .login-fill-btn:hover{color:#c4e9ff}
+html[data-theme=dark] .login-secure-note,html[data-theme=dark] .login-entry-footer{color:#9dafbf}
+html[data-theme=dark] .login-entry-footer{border-top-color:#30465a}
+html[data-theme=dark] .login-error{background:#422d35;border-color:#8b4b56;color:#ffb7b7}
+html[data-theme=dark] .theme-toggle{border-color:#426078;background:#21394e;color:#e1f1fc;box-shadow:none}
+html[data-theme=dark] .theme-toggle:hover{background:#2b4c66;border-color:#76a9c9}
+html[data-theme=dark] .side{background:#152438;border-right-color:#2a3b51;box-shadow:4px 0 22px #0000001a}
+html[data-theme=dark] .brand{background:linear-gradient(130deg,#1a2c40,#253d4c);border-color:#2b4157}
+html[data-theme=dark] .brandname,html[data-theme=dark] .header>div:first-child>strong{color:#eff6ff}
+html[data-theme=dark] .brand small,html[data-theme=dark] .menu-label{color:#9aafc1}
+html[data-theme=dark] .nav{color:#c2d2e0}
+html[data-theme=dark] .nav .id{background:#21364c;color:#b0c1d1}
+html[data-theme=dark] .nav:hover{background:#213951;color:#f3f8ff}
+html[data-theme=dark] .nav.active,html[data-theme=dark] .nav.active:hover{background:linear-gradient(90deg,#55421f,#3a342a);color:#ffe1a0;box-shadow:inset 3px 0 0 #f0b33f}
+html[data-theme=dark] .nav.active .id{background:#695024;color:#ffe0a1}
+html[data-theme=dark] .sidefoot{background:#122136;border-top-color:#2a3d51;color:#a9bbca}
+html[data-theme=dark] .sidefoot strong{color:#ffd18a}
+html[data-theme=dark] .main,html[data-theme=dark] .footer{background:#101c2b}
+html[data-theme=dark] .header{background:#17283b;border-bottom-color:#2b4055;color:#edf5ff}
+html[data-theme=dark] .header-title{color:#adbfce}
+html[data-theme=dark] .header .chip{background:#23394d;border-color:#3a5369;color:#c9d9e6}
+html[data-theme=dark] .header .chip.blue{background:#1a413e;border-color:#325e53;color:#a9ecd5}
+html[data-theme=dark] .hd-account{background:#21384c;border-color:#385167}
+html[data-theme=dark] .hd-account-avatar{background:#2d5168;color:#e4f1fb}
+html[data-theme=dark] .hd-account-label{color:#e3eef8}
+html[data-theme=dark] .hd-account-label small{color:#a5bacb}
+html[data-theme=dark] .hd-logout,html[data-theme=dark] .v3-review{background:#21374b;border-color:#39536b;color:#d9eafa}
+html[data-theme=dark] .hd-logout:hover,html[data-theme=dark] .v3-review:hover{background:#2a4861;border-color:#6b95b1}
+html[data-theme=dark] .v3-review[aria-pressed=true]{background:#4f3d22;color:#ffe2a9;border-color:#92703a}
+html[data-theme=dark] .mockbanner{background:#332c20;color:#f1ce8f;border-bottom-color:#52412b}
+html[data-theme=dark] .mockbanner #trail{color:#ffd98a}
+html[data-theme=dark] .pagehead h1,html[data-theme=dark] .panelhead strong,html[data-theme=dark] .kpi .value{color:#f0f7ff}
+html[data-theme=dark] .eyebrow{color:#f1bd65}
+html[data-theme=dark] .desc,html[data-theme=dark] .kpi .label{color:#b0c2d2}
+html[data-theme=dark] .kpi .foot{color:#a2b5c5}
+html[data-theme=dark] .panel,html[data-theme=dark] .toolbar{background:#182a3d;border-color:#30445b;box-shadow:var(--shadow)}
+html[data-theme=dark] .panel:hover{border-color:#526e87;box-shadow:0 13px 28px #00000027}
+html[data-theme=dark] .panelhead{border-bottom-color:#30445b}
+html[data-theme=dark] .panel-foot{border-top-color:#30445b}
+html[data-theme=dark] .kpi{border-color:#30445b}
+html[data-theme=dark] .kpi::after{background:#274259;color:#c6e0f7}
+html[data-theme=dark] .kpi:nth-child(2)::after{background:#55422b;color:#ffce81}
+html[data-theme=dark] .kpi:nth-child(3)::after{background:#204f42;color:#a5ebcd}
+html[data-theme=dark] .kpi:nth-child(4)::after{background:#3c3659;color:#c7b9ff}
+html[data-theme=dark] .btn{background:#22374c;border-color:#3a5269;color:#e1edf8}
+html[data-theme=dark] .btn:hover{background:#2f4351;border-color:#c09445}
+html[data-theme=dark] .btn.primary{background:linear-gradient(135deg,#3179a7,#235b8d);border-color:#3e84b0;color:#fff}
+html[data-theme=dark] .btn.ghost{background:transparent;color:#98cef3}
+html[data-theme=dark] .control{background:#203449;border-color:#38516a;color:#eaf4fc}
+html[data-theme=dark] .control:focus{background:#213951;border-color:#8ac8f0;box-shadow:0 0 0 3px #5b9fca38}
+html[data-theme=dark] .control::placeholder{color:#a3b7c8}
+html[data-theme=dark] .field label,html[data-theme=dark] .formSection{color:#c3d4e1}
+html[data-theme=dark] .readonly{background:#273849}
+html[data-theme=dark] th{background:#21364b;color:#c7d8e7;border-color:#354a61}
+html[data-theme=dark] td{border-bottom-color:#304359;color:#e3edf7}
+html[data-theme=dark] tr.clickable:hover td{background:#284258}
+html[data-theme=dark] tr.clickable:active td{background:#2d4a64}
+html[data-theme=dark] .link{color:#9bd4ff}
+html[data-theme=dark] .chip{background:#23394e;border-color:#3b5269;color:#c9dbe9}
+html[data-theme=dark] .chip.blue{background:#203e5b;border-color:#36577b;color:#a9d7ff}
+html[data-theme=dark] .chip.warn{background:#4b3924;border-color:#785a36;color:#ffcd83}
+html[data-theme=dark] .chip.good{background:#204537;border-color:#306c52;color:#a2ebc8}
+html[data-theme=dark] .chip.danger{background:#4c3032;border-color:#764446;color:#ffb6b4}
+html[data-theme=dark] .tab{background:#182a3d;color:#b5c9da}
+html[data-theme=dark] .tab.active{color:#9bd0f0;border-color:#91c7e8}
+html[data-theme=dark] .tabs{border-color:#30445b}
+html[data-theme=dark] .toolbar .control{background:#203449}
+html[data-theme=dark] .bar{background:#2f4155}
+html[data-theme=dark] .bar>div{background:linear-gradient(90deg,#81bfeb,#3987ba)}
+html[data-theme=dark] .sq{background:#69b5e3}
+html[data-theme=dark] .sq.alt{background:#62839b}
+html[data-theme=dark] .legend,html[data-theme=dark] .metric .nm,html[data-theme=dark] .caption,html[data-theme=dark] .muted,html[data-theme=dark] .small.muted,html[data-theme=dark] .kv .key{color:#a9bccd}
+html[data-theme=dark] .hint,html[data-theme=dark] .helpstripe,html[data-theme=dark] .helpbox{background:#393424;border-color:#77613c;color:#e5cda0}
+html[data-theme=dark] .helpstripe b,html[data-theme=dark] .helpbox b{color:#f7d696}
+html[data-theme=dark] .v2-status-alert{background:#4a3922;border-color:#876c3f;color:#f5d193}
+html[data-theme=dark] .v2-quick button{background:linear-gradient(160deg,#1d3246,#20354b);border-color:#39516a;color:#deedfb}
+html[data-theme=dark] .v2-quick button:hover{background:#2c4b60;border-color:#5b92b4}
+html[data-theme=dark] .v2-quick .em{color:#96d0f3}
+html[data-theme=dark] .map{background-color:#203a42;background-image:linear-gradient(30deg,#ffffff10 1px,transparent 1px),linear-gradient(120deg,#ffffff13 1px,transparent 1px);border-color:#355461}
+html[data-theme=dark] .maparea{background:#2f5547aa;border-color:#5a8c76;color:#cde4dc}
+html[data-theme=dark] .maproad{background:#375363;border-color:#517180}
+html[data-theme=dark] .pin{background:#203c50;color:#e9f5ff;border-color:#5e87a0;box-shadow:0 5px 13px #0005}
+html[data-theme=dark] .pin.highlight{background:#315a6d;color:#fff;border-color:#89c0e2}
+html[data-theme=dark] .map-footer{color:#bdd0db}
+html[data-theme=dark] .line,html[data-theme=dark] .state{border-color:#34495e}
+html[data-theme=dark] .state{background:#1e3448;color:#e3eff7}
+html[data-theme=dark] .numbericon{background:#2a4359;border-color:#4b647b;color:#dbeaf8}
+html[data-theme=dark] .timeline::before{background:#3f5369}
+html[data-theme=dark] .step .circle{background:#1f3449;border-color:#5d778b;color:#d4e4f3}
+html[data-theme=dark] .step.done .circle{background:#335470;border-color:#75a5c6;color:#d5efff}
+html[data-theme=dark] .step .slabel{color:#c1d2e0}
+html[data-theme=dark] .step .stime{color:#a2bacc}
+html[data-theme=dark] .checklist{border-color:#31465b}
+html[data-theme=dark] .check{background:#31576a;border-color:#618397;color:#ecf9ff}
+html[data-theme=dark] .check.miss{background:#1c3245}
+html[data-theme=dark] .pill{background:#20384e;color:#d5e5f3;border-color:#425b72}
+html[data-theme=dark] .pill.active{background:#365977;color:#fff;border-color:#78a4c8}
+html[data-theme=dark] .empty{border-color:#496075;color:#b1c5d5}
+html[data-theme=dark] .footer{border-top-color:#30445b;color:#9db2c4}
+html[data-theme=dark] .modalBg{background:#060f19b8!important}
+html[data-theme=dark] .modal{background:#1e3145;color:#ecf5ff;border-color:#50657c}
+html[data-theme=dark] .toast{background:#1d4539!important;color:#bef5db!important;border-color:#38745c!important}
+html[data-theme=dark] .toast:before{color:#aaf0c9}
+html[data-theme=dark] .toast.warning{background:#503c23!important;color:#ffe4b0!important;border-color:#917247!important}
+html[data-theme=dark] .toast.error{background:#4e2c32!important;color:#ffcfcb!important;border-color:#8c525b!important}
+@media(max-width:790px){.login-entry-top{flex-wrap:wrap;white-space:normal}.theme-toggle-login{margin-left:auto}}
+@media(max-width:560px){.theme-toggle{padding:8px 10px}.theme-toggle-app .theme-toggle-name{display:none}.login-entry-top{font-size:9px;gap:6px}.login-demo-pill{margin-left:auto}.login-form-wrap{margin-top:21px}}
+
+/* Preview cards use solid layers rather than blur: stable contrast in Chromium and Firefox. */
+.login-preview{background:#fff!important;backdrop-filter:none!important;animation:none!important}
+.login-preview-metric,.login-preview-track{background:#eef4fa!important}
+html[data-theme=dark] .login-preview{background:#203b50!important;border-color:#426278!important}
+html[data-theme=dark] .login-preview-metric,html[data-theme=dark] .login-preview-track{background:#2c4a60!important;border-color:#48657b!important}
+</style></head><body class="hide-review-notes"><div id="login-view" class="login-page" aria-label="Trang đăng nhập Hoa Đô">
+  <section class="login-showcase" aria-label="Giới thiệu hệ thống Hoa Đô">
+    <div class="login-visual-glow login-visual-glow-one"></div>
+    <div class="login-visual-glow login-visual-glow-two"></div>
+    <div class="login-showcase-inner">
+      <div class="login-showcase-brand"><span class="login-logo-mark">H<span>Đ</span></span><span><strong>HOA ĐÔ</strong><small>FLEET &amp; OPERATIONS</small></span></div>
+      <div class="login-intro"><span class="login-eyebrow"><span class="login-dot"></span> NỀN TẢNG QUẢN LÝ VẬN HÀNH</span><h1>Vận hành thông suốt.<br><em>Quản lý trong tầm tay.</em></h1><p>Theo dõi phương tiện, điều phối chuyến, giám sát nhiên liệu và đối soát chứng từ trên một hệ thống tập trung.</p></div>
+      <div class="login-preview" aria-hidden="true">
+        <div class="login-preview-top"><div class="login-preview-dots"><i></i><i></i><i></i></div><span>HOA ĐÔ / TỔNG QUAN VẬN HÀNH</span><span class="login-preview-live"><b></b> DEMO</span></div>
+        <div class="login-preview-grid">
+          <div class="login-preview-metric"><span>Giám sát đội xe</span><strong>GPS</strong><small>Vị trí và hành trình</small></div>
+          <div class="login-preview-metric"><span>Điều phối vận chuyển</span><strong>24/7</strong><small>Quản lý trạng thái</small></div>
+          <div class="login-preview-track"><div class="login-track-heading"><span>LUỒNG VẬN CHUYỂN · MINH HỌA</span><span class="login-preview-success">Đang vận hành</span></div><div class="login-route-line"><div class="login-route-point first"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5-7-11a7 7 0 0 1 14 0c0 6-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></div><div class="login-route-dashes"></div><div class="login-route-truck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 7h11v10H3zM14 10h4l3 3v4h-7"/><circle cx="7" cy="18" r="2"/><circle cx="18" cy="18" r="2"/></svg></div><div class="login-route-dashes"></div><div class="login-route-point last"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5-7-11a7 7 0 0 1 14 0c0 6-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></div></div><div class="login-route-labels"><span>Điểm lấy hàng</span><span>Đang vận chuyển</span><span>Điểm đổ</span></div></div>
+        </div>
+      </div>
+      <p class="login-showcase-bottom">HOA ĐÔ <span>✦</span> PROTOTYPE V3.2 <span class="login-showcase-bottom-note">Giao diện minh họa, không có dữ liệu thực</span></p>
+    </div>
+  </section>
+  <main class="login-entry">
+    <div class="login-entry-top"><span class="login-entry-symbol">✦</span> NỀN TẢNG QUẢN LÝ HOA ĐÔ <span class="login-demo-pill">DEMO</span><button type="button" class="theme-toggle theme-toggle-login" data-theme-toggle aria-label="Bật chế độ tối" aria-pressed="false" title="Chuyển giao diện sáng / tối"><span class="theme-toggle-sun" aria-hidden="true">☀</span><span class="theme-toggle-moon" aria-hidden="true">☾</span><span class="theme-toggle-name">Sáng</span></button></div>
+    <div class="login-form-wrap">
+      <div class="login-form-heading"><div class="login-welcome-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 7v6c0 5 3.5 7.5 8 9 4.5-1.5 8-4 8-9V7z"/><path d="m9 12 2 2 4-4"/></svg></div><span class="login-form-overline">CHÀO MỪNG TRỞ LẠI</span><h2>Đăng nhập hệ thống</h2><p>Đăng nhập để truy cập bảng điều khiển và các phân hệ vận hành Hoa Đô.</p></div>
+      <form id="hoado-login-form" class="login-form" novalidate>
+        <div class="login-field"><label for="login-user">Email đăng nhập <span aria-hidden="true">*</span></label><div class="login-input-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><input id="login-user" type="email" name="email" placeholder="Nhập email của bạn" autocomplete="username" required spellcheck="false"/></div></div>
+        <div class="login-field"><div class="login-label-row"><label for="login-password">Mật khẩu <span aria-hidden="true">*</span></label><span class="login-inline-caption">Bản mô phỏng</span></div><div class="login-input-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/><circle cx="12" cy="15.5" r="1"/></svg><input id="login-password" type="password" name="password" placeholder="Nhập mật khẩu" autocomplete="current-password" required/><button id="login-toggle-password" class="login-eye" type="button" aria-label="Hiện mật khẩu" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.7-7 10-7 10 7 10 7-3.7 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg></button></div></div>
+        <div id="login-error" class="login-error" role="alert" aria-live="assertive" hidden></div>
+        <button id="login-submit" class="login-submit" type="submit"><span class="login-spinner" aria-hidden="true"></span><span class="login-submit-label">Đăng nhập vào hệ thống</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button>
+      </form>
+      <div class="login-demo-access"><div class="login-demo-access-heading"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5m0-8h.01"/></svg><strong>Tài khoản trải nghiệm</strong></div><div class="login-demo-info"><span>Email: <b>demo@hoado.vn</b></span><span>Mật khẩu: <b>Demo@123</b></span></div><button id="login-fill-demo" type="button" class="login-fill-btn">Điền thông tin demo <span aria-hidden="true">↗</span></button></div>
+      <p class="login-secure-note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 10h14v11H5zM8 10V7a4 4 0 0 1 8 0v3"/></svg>Đăng nhập chỉ mô phỏng trên trình duyệt; chưa có máy chủ xác thực.</p>
+    </div>
+    <div class="login-entry-footer"><span>© Hoa Đô · Giao diện prototype phục vụ đánh giá</span><span>V3.2 · Light / Dark</span></div>
+  </main>
+</div><div class="app"><aside class="side"><div class="brand"><div class="brandname">HOA ĐÔ<small>FLEET MANAGEMENT</small></div></div><nav class="menu" id="nav"></nav><div class="sidefoot"><strong>HOA ĐÔ · PROTOTYPE V3</strong><br/>BA / UX review · 10 màn hình<br/>Dữ liệu minh họa, không kết nối hệ thống thật</div></aside><section class="main"><div class="header"><div><strong>HOA ĐÔ · QUẢN LÝ ĐỘI XE &amp; MÁY CÔNG TRÌNH</strong><div class="header-title">Điều hành vận chuyển · GPS · Đối soát · Nhiên liệu</div></div><div class="row"><span class="chip">✦ Dữ liệu giả lập</span><button type="button" class="theme-toggle theme-toggle-app" data-theme-toggle aria-label="Bật chế độ tối" aria-pressed="false" title="Chuyển giao diện sáng / tối"><span class="theme-toggle-sun" aria-hidden="true">☀</span><span class="theme-toggle-moon" aria-hidden="true">☾</span><span class="theme-toggle-name">Sáng</span></button><div class="hd-account"><div class="hd-account-avatar">HD</div><div class="hd-account-label">Quản lý vận hành<small>Tài khoản demo</small></div></div><button class="hd-logout" type="button" data-logout-demo="1" title="Đăng xuất khỏi phiên demo">↪ Đăng xuất</button><button type="button" class="v3-review" data-review-toggle="1" aria-pressed="false" title="Bật/tắt ghi chú BA">Hiện ghi chú BA</button></div></div><div class="mockbanner"><span>BẢN DEMO V3 · Dữ liệu giả lập và quy tắc nghiệp vụ chưa được khách hàng phê duyệt.</span><span id="trail">S01</span></div><div class="content" id="screen"></div><div class="footer">Hoa Đô · Prototype V3 · Chạy độc lập trong trình duyệt · Không có Backend/GPS thật · Đơn vị đo và quy tắc phê duyệt cần chốt.</div></section></div><script>
+const menus=[['TỔNG QUAN',[['S01','Dashboard tổng quan'],['S10','Tiến độ dự án']]],['GIÁM SÁT & VẬN HÀNH',[['S02','Giám sát GPS'],['S03','Phương tiện'],['S04','Chuyến vận chuyển'],['S07','Đối soát chứng từ']]],['NHIÊN LIỆU',[['S08','Tổng quan nhiên liệu']]]];
 let current='S01', chosenVehicle='29H-12345', chosenTrip='HD-CT-001', activeFilter='Tất cả', reconciled=false, toastTimeout=null;
-const gpsVehicles=[
-  {id:'15H-112.05',type:'Xe vận tải',time:'15:50:00 16/10/2026',speed:'--',signal:'Mất tín hiệu',power:'Mất nguồn',km:'65.32 km',engine:'Chưa có dữ liệu',door:'Chưa có dữ liệu',fee:'Chưa có dữ liệu',cameraFee:'Chưa có dữ liệu',address:'Chưa có dữ liệu trong ảnh cung cấp',newAddress:'Chưa có dữ liệu',driver:'Chưa có dữ liệu',continuous:'Chưa có dữ liệu',phone:'Chưa có dữ liệu',stop:'Chưa có dữ liệu',overspeed:'Chưa có dữ liệu',fuel:'Chưa có dữ liệu',license:'Chưa có dữ liệu',licenseExpiry:'Chưa có dữ liệu',deviceSerial:'Chưa có dữ liệu',source:'Dữ liệu quan sát từ web GPS người dùng cung cấp'},
-  {id:'29H-12345',type:'Xe tải tự đổ',time:'08:40:00 16/10/2026',speed:'45 km/h',signal:'Có tín hiệu',power:'Bình thường',km:'--',engine:'Đang hoạt động (demo)',door:'--',fee:'--',cameraFee:'--',address:'Vị trí minh họa – không phải dữ liệu GPS thật',newAddress:'--',driver:'Trần Văn Bình (demo)',continuous:'--',phone:'--',stop:'--',overspeed:'--',fuel:'75 L (demo)',license:'--',licenseExpiry:'--',deviceSerial:'Mã thiết bị mẫu',source:'Dữ liệu giả lập của Prototype'},
-  {id:'30H-67890',type:'Xe tải tự đổ',time:'07:50:00 16/10/2026',speed:'0 km/h (demo)',signal:'Dữ liệu trễ',power:'Chưa xác minh',km:'--',engine:'--',door:'--',fee:'--',cameraFee:'--',address:'Vị trí cuối – minh họa',newAddress:'--',driver:'--',continuous:'--',phone:'--',stop:'--',overspeed:'--',fuel:'--',license:'--',licenseExpiry:'--',deviceSerial:'Mã thiết bị mẫu',source:'Dữ liệu giả lập của Prototype'}
-];
-function gpsVehicle(id){return gpsVehicles.find(v=>v.id===id)||gpsVehicles[0]}
 const trips=[{id:'HD-CT-001',car:'29H-12345',project:'San lấp khu A',route:'Mỏ Đông → Khu A',state:'Chờ xác nhận',doc:'Đủ chứng từ',qty:'20,0 tấn',flag:1},{id:'HD-CT-002',car:'30H-67890',project:'San lấp khu A',route:'Mỏ Tây → Khu A',state:'Đang vận chuyển',doc:'Thiếu phiếu cân',qty:'Chưa có',flag:0},{id:'HD-CT-003',car:'29H-12345',project:'Công trình B',route:'Mỏ Đông → Công trình B',state:'Hoàn tất',doc:'Đã xác nhận',qty:'18,5 tấn',flag:1},{id:'HD-CT-004',car:'30H-67890',project:'San lấp khu A',route:'Mỏ Tây → Khu A',state:'Đã giao nhiệm vụ',doc:'Chưa có chứng từ',qty:'Chưa có',flag:0}];
 const fakedate='16/10/2026';
 const confirmedTripIds=new Set(); const tripHistory={}; let draftCount=0; let alertNotes=[];
 function badge(t,c=''){return `<span class="chip ${c}">${t}</span>`}
-function go(id){if(!/^S(0[1-9]|10)$/.test(id))return;current=id; render(); document.querySelector('.main').scrollTop=0;}
+function go(id){if(!demoLoggedIn&&!isDemoAuthenticated())return;if(!/^S(0[1-9]|10)$/.test(id))return;current=id; render(); document.querySelector('.main').scrollTop=0;}
 function getTrip(){return trips.find(t=>t.id===chosenTrip)||trips[0]}
-function page(name,id,description,actions=''){return `<div class="pagehead"><div><div class="eyebrow">${id} · WEB QUẢN LÝ HOA ĐÔ / PROTOTYPE V3 GPS</div><h1>${name}</h1><div class="desc">${description}</div></div><div class="actions">${actions}</div></div>`}
+function page(name,id,description,actions=''){return `<div class="pagehead"><div><div class="eyebrow">${id} · WEB QUẢN LÝ HOA ĐÔ / PROTOTYPE V3</div><h1>${name}</h1><div class="desc">${description}</div></div><div class="actions">${actions}</div></div>`}
 function box(title,body,topRight='',cls=''){return `<section class="panel ${cls}"><div class="panelhead"><strong>${title}</strong>${topRight}</div><div class="panelbody">${body}</div></section>`}
 function kpi(title,num,sub,goTo){return `<article class="panel kpi" ${goTo?`data-go="${goTo}" style="cursor:pointer"`:''}><div class="label">${title}</div><div class="value">${num}</div><div class="foot">${sub}</div></article>`}
 function help(text,q){return `<div class="helpstripe"><b>BA · GIẢ ĐỊNH / CẦN XÁC NHẬN</b><div style="margin-top:4px">${text}</div><div class="question"><b>Câu hỏi chốt:</b> ${q}</div></div>`}
@@ -61,8 +476,8 @@ function linechart(kind='fuel'){
 }
 const screens={
 S01(){return page('Dashboard tổng quan','S01','Màn hình mở đầu dành cho quản lý; số liệu cần phân biệt ước tính, giao nhận và đã xác nhận.',aButton('Xem GPS →','S02','primary'))+filterbar(filterDate(),dropdown(['Tất cả dự án','San lấp khu A','Công trình B']),badge('Dữ liệu mẫu','warn'))+`<div class="grid g4">${kpi('Xe hoạt động / Tổng xe','12 / 18','Minh họa trạng thái phương tiện','S02')}${kpi('Chuyến đã ghi nhận','36','Không mặc định đủ điều kiện đối soát','S04')}${kpi('Sản lượng ước tính','560 m³','Dựa trên quy tắc được duyệt · Mẫu','S10')}${kpi('Sản lượng xác nhận','430 m³','Không trộn với sản lượng ước tính','S07')}</div><div class="grid g65" style="margin-top:15px">${box('Kế hoạch và sản lượng theo ngày',`<div class="row between" style="margin-bottom:12px"><span class="muted small">Biểu đồ giả lập để khảo sát</span><span class="legend"><span><i class="sq alt"></i>Kế hoạch</span><span><i class="sq"></i>Thực hiện</span></span></div>${linechart('bar')}`,aButton('Xem tiến độ →','S10','sm'))}${box('Cần người quản lý kiểm tra',`<div class="state">${badge('02','warn')}<span style="flex:1">Chuyến thiếu chứng từ</span><button class="link" data-go="S07">Xem →</button></div><div class="state">${badge('01','warn')}<span style="flex:1">Dữ liệu GPS đến muộn</span><button class="link" data-go="S02">Xem →</button></div><div class="state">${badge('01','warn')}<span style="flex:1">Biến động nhiên liệu</span><button class="link" data-go="S09">Xem →</button></div><div class="hint">Đây là dấu hiệu cần kiểm tra, không tự kết luận vi phạm.</div>`)}</div>`+help('Dashboard cần ghi nguồn dữ liệu, mốc chốt báo cáo và phạm vi quyền người xem. Chỉ số trên thẻ có thể nhấn để mở chi tiết.','Lãnh đạo ưu tiên KPI nào? Sản lượng nào được coi là kết quả chính thức?')},
-S02(){const v=gpsVehicle(chosenVehicle);const rows=gpsVehicles.map(x=>`<tr class="${x.id===v.id?'active':''}" data-vehicle="${x.id}"><td><b>${x.id}</b><div class="muted tiny">${x.type}</div></td><td>${x.time}</td><td>${x.speed}</td><td>${badge(x.signal,x.signal==='Có tín hiệu'?'good':'warn')}</td><td>${x.power}</td><td>${x.km}</td><td><button class="link" data-vehicle="${x.id}">Chọn</button></td></tr>`);return page('Giám sát GPS phương tiện','S02','Theo dõi vị trí, tín hiệu, trạng thái thiết bị và các chỉ số hành trình lấy từ hệ thống GPS. Giao diện V3 bám theo dữ liệu web GPS đã cung cấp.',aButton('Mở hồ sơ xe →','S03','primary'))+filterbar(dropdown(['Toàn đội xe','Xe vận tải','Máy công trình']),dropdown(['Tất cả trạng thái','Có tín hiệu','Mất tín hiệu','Dữ liệu trễ']),`<input class="control search" id="v2-gps-search" placeholder="Tìm biển số / mã phương tiện…">`)+`<div class="gps-kpis"><article class="panel gps-kpi"><div class="label">Phương tiện theo dõi</div><div class="n">${gpsVehicles.length}</div><div class="foot">Danh sách demo + dữ liệu GPS quan sát được</div></article><article class="panel gps-kpi"><div class="label">Mất tín hiệu</div><div class="n" style="color:#d93434">${gpsVehicles.filter(x=>x.signal==='Mất tín hiệu').length}</div><div class="foot">Cần hiển thị thời điểm cuối</div></article><article class="panel gps-kpi"><div class="label">Mất nguồn</div><div class="n" style="color:#d97706">${gpsVehicles.filter(x=>x.power==='Mất nguồn').length}</div><div class="foot">Cảnh báo thiết bị, chưa kết luận nguyên nhân</div></article><article class="panel gps-kpi"><div class="label">Dữ liệu trễ</div><div class="n">${gpsVehicles.filter(x=>x.signal==='Dữ liệu trễ').length}</div><div class="foot">Theo bản ghi mô phỏng</div></article></div><div class="gps-main"><div>${box('Danh sách phương tiện GPS',table(['Biển số / Mã xe','Thời gian GPS','Vận tốc','Tín hiệu','Nguồn','KM trong ngày',''],rows),`<span class="muted small">Chọn một xe để xem nhanh</span>`,'gps-table')}<div style="margin-top:15px">${box('Bản đồ / vị trí gần nhất',`<div class="gps-route-box"><span class="gps-dot ${v.signal==='Mất tín hiệu'?'red':''}" style="left:58%;top:46%"></span><div class="gps-map-label" style="left:61%;top:38%">${v.id}<br><span class="muted">${v.signal}</span></div><span class="gps-dot" style="left:20%;top:57%"></span><div class="gps-map-label" style="left:8%;top:67%">Khu vực dự án<br><span class="muted">minh họa</span></div></div><div class="map-footer"><span>Vị trí chỉ minh họa</span><span>GPS không tự xác nhận giao hàng</span></div>`)}</div></div><div>${box('Thông tin nhanh xe đang chọn',`${v.signal==='Mất tín hiệu'?`<div class="gps-alert">⚠ ${v.signal} · ${v.power}</div>`:`<div class="gps-ok">● ${v.signal} · ${v.power}</div>`}<div class="gps-detail-list" style="margin-top:14px"><span class="k">Biển số</span><span class="v">${v.id}</span><span class="k">Thời gian</span><span class="v">${v.time}</span><span class="k">Vận tốc</span><span class="v">${v.speed}</span><span class="k">Trạng thái xe</span><span class="v">${v.signal}</span><span class="k">Động cơ</span><span class="v">${v.engine}</span><span class="k">Địa chỉ</span><span class="v">${v.address}</span><span class="k">Lái xe</span><span class="v">${v.driver}</span><span class="k">KM trong ngày</span><span class="v">${v.km}</span><span class="k">Số lần quá tốc</span><span class="v">${v.overspeed}</span></div><div class="gps-source">Nguồn hiển thị: ${v.source}</div><div class="actions" style="margin-top:15px">${aButton('Chi tiết phương tiện →','S03','primary sm')}</div>`) }${box('Nhóm dữ liệu từ web GPS đã thấy',`<div class="gps-tabs">${['Biển số','Thời gian','Vận tốc','Trạng thái xe','Động cơ','Cửa','Hạn phí','Hạn camera','Địa chỉ','Lái xe','LXLT','SĐT','KM/ngày','Dừng/đỗ','Quá tốc','Nhiên liệu','GPLX','Seri GSHT'].map(x=>badge(x)).join('')}</div><div class="hint">Trường nào chưa nhìn thấy giá trị thì Prototype hiển thị “Chưa có dữ liệu”, không tự bịa giá trị.</div>`)}</div></div>`+help('Các trường trên được lấy theo giao diện GPS người dùng cung cấp. Chúng ta mới xác nhận khả năng hiển thị trên web GPS, chưa xác nhận API có trả đầy đủ các trường này.','Nhà cung cấp GPS có API nào cho trạng thái nguồn, động cơ, km/ngày, dừng/đỗ, quá tốc và hồ sơ GPLX/GSHT? Chu kỳ cập nhật là bao lâu?')},
-S03(){const v=gpsVehicle(chosenVehicle);return page('Chi tiết phương tiện & GPS','S03',`Hồ sơ ${v.id}: gom thông tin phương tiện, trạng thái GPS, tài xế và chỉ số hành trình vào một trang dễ tra cứu.`,aButton('← Giám sát GPS','S02'))+`<div class="panel" style="margin-bottom:15px"><div class="panelbody"><div class="row between"><div><div class="eyebrow">PHƯƠNG TIỆN / GPS</div><h2 style="margin:7px 0 5px;font-size:23px">${v.id}</h2><div class="row">${badge(v.type)}${badge(v.signal,v.signal==='Có tín hiệu'?'good':'warn')}${badge(v.power,v.power==='Bình thường'?'good':'warn')}</div></div><div class="actions">${aButton('Xem chuyến →','S04','sm')}${aButton('Chi tiết nhiên liệu →','S09','primary sm')}</div></div></div></div><div class="gps-summary"><div class="mini"><span class="muted tiny">Thời gian GPS</span><b>${v.time}</b></div><div class="mini"><span class="muted tiny">Vận tốc</span><b>${v.speed}</b></div><div class="mini"><span class="muted tiny">KM trong ngày</span><b>${v.km}</b></div><div class="mini"><span class="muted tiny">Động cơ</span><b>${v.engine}</b></div><div class="mini"><span class="muted tiny">Dừng/đỗ</span><b>${v.stop}</b></div><div class="mini"><span class="muted tiny">Quá tốc</span><b>${v.overspeed}</b></div></div><div class="grid g65" style="margin-top:15px">${box('Thông tin GPS & trạng thái xe',`<div class="gps-detail-list"><span class="k">Biển số / mã xe</span><span class="v">${v.id}</span><span class="k">Trạng thái xe</span><span class="v">${v.signal}</span><span class="k">Nguồn thiết bị</span><span class="v">${v.power}</span><span class="k">Địa chỉ</span><span class="v">${v.address}</span><span class="k">Địa chỉ mới</span><span class="v">${v.newAddress}</span><span class="k">Cửa</span><span class="v">${v.door}</span><span class="k">Hạn phí đến</span><span class="v">${v.fee}</span><span class="k">Hạn phí camera 1</span><span class="v">${v.cameraFee}</span></div><div class="gps-source">${v.source}</div>`) }${box('Tài xế & hồ sơ thiết bị',`<div class="gps-detail-list"><span class="k">Lái xe</span><span class="v">${v.driver}</span><span class="k">SĐT liên lạc</span><span class="v">${v.phone}</span><span class="k">Thời gian LXLT</span><span class="v">${v.continuous}</span><span class="k">GPLX</span><span class="v">${v.license}</span><span class="k">Ngày hết hạn</span><span class="v">${v.licenseExpiry}</span><span class="k">Seri GSHT</span><span class="v">${v.deviceSerial}</span><span class="k">Nhiên liệu</span><span class="v">${v.fuel}</span></div>`)}</div><div class="grid g2" style="margin-top:15px">${box('Lộ trình / vị trí gần nhất',`<div class="gps-route-box"><span class="gps-dot ${v.signal==='Mất tín hiệu'?'red':''}" style="left:68%;top:47%"></span><div class="gps-map-label" style="left:52%;top:28%">${v.id}<br>${v.time}</div><span class="gps-dot" style="left:17%;top:58%"></span><div class="gps-map-label" style="left:8%;top:68%">Điểm trước đó · minh họa</div></div><div class="actions" style="margin-top:12px">${aButton('← Trở lại bản đồ GPS','S02','sm')}</div>`) }${box('Chỉ số hành trình',`<div class="state"><span>KM trong ngày</span><b>${v.km}</b></div><div class="state"><span>Dừng/đỗ</span><b>${v.stop}</b></div><div class="state"><span>Số lần quá tốc</span><b>${v.overspeed}</b></div><div class="state"><span>Tín hiệu / nguồn</span>${badge(v.signal+' / '+v.power,v.signal==='Có tín hiệu'?'good':'warn')}</div><div class="hint">Nếu mất tín hiệu hoặc mất nguồn, hệ thống chỉ hiển thị bản ghi cuối và cảnh báo; không suy luận vị trí sau thời điểm mất tín hiệu.</div>`)}</div><div style="margin-top:15px">${box('Chuyến vận chuyển liên quan',trips.filter(t=>t.car===v.id).length?table(['Mã chuyến','Trạng thái','Khối lượng'],trips.filter(t=>t.car===v.id).slice(0,4).map(t=>`<tr class="clickable" data-trip="${t.id}" data-go="S06"><td><b>${t.id}</b></td><td>${t.state}</td><td>${t.qty}</td></tr>`)):'<div class="empty">Chưa có chuyến demo liên kết với xe này.</div>')}</div>`+help('Trang này phản ánh nhóm trường quan sát được trên web GPS. Các giá trị không xuất hiện trong ảnh được để “Chưa có dữ liệu”, không tự suy diễn.','Các trường hồ sơ (GPLX, hạn phí, camera, seri GSHT) lấy từ GPS hay module quản lý hồ sơ nội bộ? Có cần đồng bộ hai chiều không?')},
+S02(){const v=chosenVehicle;return page('Giám sát đội xe – GPS Map','S02','Tra cứu vị trí gần nhất, lịch sử hành trình và thời điểm cập nhật; không đồng nhất vị trí GPS với xác nhận giao hàng.',aButton('Xem chi tiết xe →','S03','primary'))+filterbar(dropdown(['Tất cả dự án','San lấp khu A','Công trình B']),dropdown(['Tất cả trạng thái','Có tín hiệu','Dữ liệu trễ']),sbar())+`<div class="grid g260"><div class="panel"><div class="panelhead"><strong>Phương tiện</strong><span class="muted small">3 xe mẫu</span></div><div class="panelbody"><div class="vehicleRow ${v==='29H-12345'?'active':''}" data-vehicle="29H-12345"><b>29H-12345</b><div class="muted small" style="margin-top:5px">Xe tải · Có dữ liệu GPS</div></div><div class="vehicleRow ${v==='30H-67890'?'active':''}" data-vehicle="30H-67890"><b>30H-67890</b><div class="muted small" style="margin-top:5px">Xe tải · Dữ liệu trễ</div></div><div class="vehicleRow ${v==='MAY-XUC-01'?'active':''}" data-vehicle="MAY-XUC-01"><b>MAY-XUC-01</b><div class="muted small" style="margin-top:5px">Máy xúc · Không có GPS mẫu</div></div><div class="hint" style="margin-top:10px">Mốc cập nhật cuối cùng phải hiển thị rõ.</div></div></div><div class="panel"><div class="panelhead"><strong>Bản đồ phương tiện</strong><span class="muted small">Geofence / đường đi: minh họa</span></div><div class="panelbody" style="padding:12px"><div class="map"><div class="maproad a"></div><div class="maproad b"></div><div class="maproad c"></div><div class="maproad d"></div><div class="maparea">Khu vực mỏ (đề xuất)</div><button class="pin ${v==='29H-12345'?'highlight':''}" style="left:47%;top:43%" data-vehicle="29H-12345">29H-12345</button><button class="pin ${v==='30H-67890'?'highlight':''}" style="left:65%;top:68%" data-vehicle="30H-67890">30H-67890</button><div class="tag" style="position:absolute;top:12px;right:12px;z-index:2">Không phải bản đồ GPS thực tế</div></div><div class="map-footer"><span>○ Điểm GPS mô phỏng</span><span>◌ Geofence đề xuất</span><span>─ Tuyến/đường minh họa</span></div></div></div></div><div class="grid g2" style="margin-top:15px">${box('Phương tiện đang chọn',`<div class="kv"><span class="key">Mã/Biển số</span><span class="val">${v}</span><span class="key">Dữ liệu GPS</span><span class="val">${v==='MAY-XUC-01'?'Chưa có nguồn':v==='30H-67890'?'Bản tin gần nhất đã trễ':'Có bản tin gần nhất'}</span><span class="key">Thời điểm cập nhật</span><span class="val">${v==='29H-12345'?'08:40 · 16/10/2026':v==='30H-67890'?'07:50 · 16/10/2026':'Không có'}</span></div><div style="margin-top:15px">${aButton('Mở hồ sơ xe →','S03','primary sm')}</div>`) }${box('Gợi ý kiểm tra từ GPS',`<div class="state"><span>Điểm dừng lâu</span>${badge('Cần xác minh','warn')}</div><div class="state"><span>Dữ liệu trễ</span>${badge('Hiện thời điểm cuối','warn')}</div><div class="hint">GPS chỉ giúp tham chiếu vị trí/hành trình. Không tự xác minh đã bốc, đổ hay đủ khối lượng.</div>`)}</div>`+help('Bản đồ chỉ là minh họa, không sử dụng tọa độ/địa chỉ thật. Liên kết chọn xe → xem chi tiết xe.','Nhà GPS cung cấp những trường nào và tần suất bao lâu? Quy tắc Geofence dùng cho cảnh báo hay cập nhật chuyến?')},
+S03(){return page('Chi tiết phương tiện','S03','Hồ sơ phương tiện: thông tin cơ bản, lịch sử chuyến, dữ liệu GPS và liên kết nhiên liệu.',aButton('← Bản đồ GPS','S02'))+`<div class="panel" style="margin-bottom:15px"><div class="panelbody"><div class="row between"><div><div class="eyebrow">PHƯƠNG TIỆN / HỒ SƠ</div><h2 style="margin:8px 0;font-size:21px">${chosenVehicle}</h2><div class="row">${badge(chosenVehicle==='MAY-XUC-01'?'Máy xúc':'Xe tải')}${badge(chosenVehicle==='30H-67890'?'GPS trễ':'Đang quản lý','blue')}</div></div><div class="actions">${aButton('Chuyến của xe →','S04','sm')}${aButton('Chi tiết nhiên liệu →','S09','primary sm')}</div></div></div></div><div class="grid g65">${box('Thông tin phương tiện',`<div class="kv"><span class="key">Mã phương tiện</span><span class="val">${chosenVehicle}</span><span class="key">Loại phương tiện</span><span class="val">${chosenVehicle==='MAY-XUC-01'?'Máy xúc':'Xe tải tự đổ'}</span><span class="key">Chủ sở hữu</span><span class="val">Chưa xác nhận trong dữ liệu mẫu</span><span class="key">Tải trọng / dung tích</span><span class="val">Theo hồ sơ phương tiện (chưa khai báo)</span><span class="key">Thiết bị GPS</span><span class="val">Mã thiết bị mẫu / chưa xác thực</span><span class="key">Dự án liên quan</span><span class="val">San lấp khu A (mẫu)</span></div>`) }${box('Điều hướng từ hồ sơ',`<div class="state"><span>Hành trình GPS</span>${aButton('Xem bản đồ →','S02','sm')}</div><div class="state"><span>Lịch sử chuyến</span>${aButton('Xem chuyến →','S04','sm')}</div><div class="state"><span>Nhiên liệu</span>${aButton('Xem chi tiết →','S09','sm')}</div><div class="hint">Xe tải và máy công trình có bộ trường/KPI khác nhau.</div>`)}</div><div class="grid g2" style="margin-top:15px">${box('Chuyến vận chuyển gần đây',table(['Mã chuyến','Trạng thái','Khối lượng'],trips.filter(t=>t.car===chosenVehicle).slice(0,3).map(t=>`<tr class="clickable" data-trip="${t.id}" data-go="S06"><td><b>${t.id}</b></td><td>${t.state}</td><td>${t.qty}</td></tr>`)))}${box('Nhật trình / hành trình',`<div class="hint">Vùng sơ bộ để liên kết lịch sử di chuyển. Khi được chốt, có thể bố trí timeline theo thời điểm, điểm dừng, giờ máy hoặc quãng đường tương ứng loại phương tiện.</div><div style="margin-top:18px">${aButton('Mở giám sát GPS →','S02','primary sm')}</div>`)}</div>`+help('Không áp dụng bắt buộc trường biển số, tải trọng, chuyến vận chuyển cho mọi loại máy. Phân biệt hồ sơ xe, thiết bị và các ca vận hành.','Máy xúc/máy lu có cần hồ sơ riêng và nhật trình giờ máy riêng không? Một GPS có được chuyển giữa các xe?')},
 S04(){return page('Danh sách chuyến vận chuyển','S04','Điều phối và tra cứu chuyến theo xe, dự án, trạng thái và tình trạng chứng từ.',aButton('+ Tạo chuyến','S05','primary'))+filterbar(filterDate(),dropdown(['Tất cả dự án','San lấp khu A','Công trình B']),dropdown(['Tất cả trạng thái','Đã giao nhiệm vụ','Đang vận chuyển','Chờ xác nhận','Hoàn tất']),sbar())+`<div class="grid g3" style="margin-bottom:14px">${kpi('Tổng chuyến (danh sách demo)',String(trips.length).padStart(2,'0'),'Gồm mọi trạng thái')}${kpi('Đang vận chuyển',String(trips.filter(t=>t.state==='Đang vận chuyển').length).padStart(2,'0'),'Theo dữ liệu mẫu')}${kpi('Hồ sơ cần kiểm tra',String(trips.filter(t=>!t.flag).length).padStart(2,'0'),'Thiếu/chờ chứng từ, đối soát','S07')}</div><div class="v2-status-alert"><strong>Hồ sơ cần chú ý:</strong> Chuyến thiếu chứng từ được đánh dấu để kiểm tra; tình trạng chuyến không đồng nghĩa đã đối soát. <button data-go="S07">Mở đối soát →</button></div>${box('Các chuyến đã ghi nhận',table(['Mã chuyến','Phương tiện','Dự án','Điểm đi → điểm đến','Trạng thái','Chứng từ','Thao tác'],trips.map(t=>`<tr class="clickable" data-trip="${t.id}" data-go="S06"><td><b>${t.id}</b></td><td>${t.car}</td><td>${t.project}</td><td>${t.route}</td><td>${badge(t.state,t.state==='Hoàn tất'?'good':'')}</td><td>${badge(t.doc,t.flag?'':'warn')}</td><td><button class="link" data-trip="${t.id}" data-go="S06">Chi tiết →</button></td></tr>`)),`<span class="muted tiny">Chọn một dòng để mở S06</span>`)}<div class="row" style="margin-top:14px">${aButton('Đối soát chứng từ →','S07')}<span class="muted tiny">Chỉ hiển thị dữ liệu mô phỏng; lọc chưa gọi API</span></div>`+help('Danh sách chuyến cần thể hiện riêng trạng thái vận chuyển và trạng thái hồ sơ/chứng từ để không hiểu nhầm một chuyến giao xong là đã được nghiệm thu.','Ai tạo chuyến? Có thể tạo hàng loạt, bù chuyến, hủy chuyến hoặc nhập lại Excel không?')},
 S05(){return page('Tạo và giao chuyến mới','S05','Form thao tác mẫu cho điều phối. Các trường có nhãn đề xuất cần được khách hàng xác nhận.',aButton('← Danh sách chuyến','S04'))+`<div class="grid g330"><div class="panel"><div class="panelhead"><strong>Thông tin chuyến vận chuyển</strong>${badge('Form mô phỏng','warn')}</div><div class="panelbody"><div class="formSection">1. Phân công và dự án</div><div class="formgrid"><div class="field"><label>Dự án *</label><select id="tripProject" class="control"><option value="">-- Chọn dự án --</option><option selected>San lấp khu A</option><option>Công trình B</option></select></div><div class="field"><label>Phương tiện *</label><select id="tripVehicle" class="control"><option value="">-- Chọn phương tiện --</option><option selected>29H-12345</option><option>30H-67890</option></select></div><div class="field"><label>Tài xế *</label><select id="tripDriver" class="control"><option value="">-- Chọn tài xế --</option><option selected>Tài xế A (mẫu)</option><option>Tài xế B (mẫu)</option></select></div><div class="field"><label>Thời gian dự kiến</label><input class="control" value="16/10/2026 09:00"/></div></div><div class="formSection">2. Thông tin vận chuyển</div><div class="formgrid"><div class="field"><label>Điểm lấy vật liệu *</label><select id="tripFrom" class="control"><option selected>Mỏ Đông (mẫu)</option><option>Mỏ Tây (mẫu)</option></select></div><div class="field"><label>Điểm đổ/giao hàng *</label><select id="tripTo" class="control"><option selected>Công trường khu A (mẫu)</option><option>Công trình B (mẫu)</option></select></div><div class="field"><label>Loại vật liệu *</label><select id="tripMaterial" class="control"><option selected>Đất san lấp (mẫu)</option><option>Đá (mẫu)</option></select></div><div class="field"><label>Khối lượng dự kiến</label><input class="control" placeholder="Chưa xác nhận cách khai báo"/></div></div><div class="formSection">3. Ghi chú</div><div class="field"><label>Thông tin bổ sung</label><textarea class="control" style="height:65px" placeholder="Ghi chú điều phối...">Chuyến ví dụ để trình diễn Prototype</textarea></div><div class="row" style="justify-content:flex-end;margin-top:18px;flex-wrap:wrap">${aButton('Hủy','S04','sm')}<button class="btn" data-save-draft="1">Lưu nháp (Demo)</button><button class="btn primary" data-submit-trip="1">Tạo & giao chuyến (mô phỏng)</button></div></div></div>${box('Tóm tắt và điều kiện cần kiểm tra',`<div class="state"><span>Mã chuyến</span>${badge('Tự sinh khi lưu','blue')}</div><div class="state"><span>Kiểm tra trùng/xung đột xe</span>${badge('Đề xuất','warn')}</div><div class="state"><span>Trạng thái sau giao</span>${badge('Đã giao nhiệm vụ')}</div><div class="line"></div><div class="hint">Bấm “Tạo & giao chuyến” chỉ thực hiện mô phỏng trong file HTML. Không lưu vào hệ thống thật và không kết nối API.</div><div style="margin-top:14px" class="helpbox">Chưa chốt: ai được tạo, thời điểm tạo chuyến, cách xử lý bù chuyến/nhập liệu thay và điều kiện kiểm tra xe/tài xế bận.</div>`)}</div>`+help('Các trường bắt buộc (*), thời điểm giao nhiệm vụ, kiểm tra xung đột xe và trạng thái ban đầu chỉ là phương án demo.','Chuyến được tạo trước hay sau khi xe chạy? Ai nhập nếu tài xế/trạm cân chưa có App?')},
 S06(){const t=getTrip();const progress={'Đã giao nhiệm vụ':1,'Đang đến điểm lấy':2,'Đã đến điểm lấy':3,'Đang vận chuyển':4,'Đến điểm đổ':5,'Chờ xác nhận':6,'Hoàn tất':7}[t.state]||0;return page('Chi tiết chuyến vận chuyển','S06',`Theo dõi mã chuyến ${t.id}: trạng thái vận chuyển, GPS, chứng từ, khối lượng và kết quả đối soát.`,`${aButton('← Danh sách chuyến','S04')}<button class="btn" data-edit-status="1">Cập nhật trạng thái (Demo)</button>${aButton('Mở đối soát →','S07','primary')}`)+`<div class="panel" style="margin-bottom:15px"><div class="panelbody"><div class="row between"><div><div class="eyebrow">MÃ CHUYẾN / DEMO</div><h2 style="margin:7px 0">${t.id}</h2></div><div class="pills">${badge(t.state,'blue')}${badge(t.doc,t.flag?'good':'warn')}</div></div><div class="line"></div><div class="grid g4"><div><div class="key muted small">Phương tiện</div><b>${t.car}</b></div><div><div class="key muted small">Dự án</div><b>${t.project}</b></div><div><div class="key muted small">Tuyến</div><b>${t.route}</b></div><div><div class="key muted small">Khối lượng ghi nhận</div><b>${t.qty}</b></div></div></div></div>${box('Timeline vận chuyển – Trạng thái đề xuất',`<div class="timeline">${[['Giao nhiệm vụ','07:00'],['Đến điểm lấy','07:24'],['Nhận hàng','07:35'],['Đang vận chuyển','07:50'],['Đến điểm đổ','08:20'],['Chờ xác nhận','08:25'],['Hoàn tất','--']].map((s,i)=>`<div class="step ${i<progress?'done':''}"><div class="circle">${i+1}</div><div class="slabel">${s[0]}</div><div class="stime">${i<progress?s[1]:'--'}</div></div>`).join('')}</div><div class="hint">Các mốc giờ minh họa, không phải dữ liệu thực tế. Nguồn ghi nhận và người được quyền xác nhận từng mốc chưa chốt.</div>`) }<div class="grid g2" style="margin-top:15px">${box('Thông tin / GPS',`<div class="kv"><span class="key">Điểm lấy / đổ</span><span class="val">${t.route}</span><span class="key">Định danh tài xế</span><span class="val">Tài xế A (mẫu)</span><span class="key">Nguồn thời gian</span><span class="val">GPS / nhập tay – cần xác nhận</span><span class="key">Hành trình</span><span class="val">Dữ liệu vị trí nếu có</span></div><div style="margin-top:15px">${aButton('Xem GPS →','S02','sm')}</div>`)}${box('Chứng từ và đối soát',`<div class="docrow"><div class="document">▤</div><div><b>Phiếu cân</b><div class="muted tiny">${t.flag?'Đã tải bản mẫu':'Chưa có chứng từ'}</div></div>${badge(t.flag?'Có':'Thiếu',t.flag?'good':'warn')}</div><div class="docrow"><div class="document">▤</div><div><b>Phiếu giao nhận</b><div class="muted tiny">Minh họa theo mẫu chứng từ</div></div>${badge(t.flag?'Có':'Chưa xác nhận',t.flag?'good':'warn')}</div><div style="margin-top:12px">${aButton('Đối soát khối lượng →','S07','primary sm')}</div>`)}</div>`+help('Timeline vận chuyển và trạng thái đối soát là hai chiều thông tin tách biệt; đi vào geofence không chứng minh đã giao đủ hàng.','Ai nhập mốc chuyến? Có thể sửa mốc đã xác nhận không? Chứng từ bắt buộc khác nhau theo loại chuyến không?')},
@@ -72,11 +487,11 @@ S09(){const fuelOk=chosenVehicle==='29H-12345';return page('Chi tiết nhiên li
 S10(){return page('Tiến độ và sản lượng theo dự án','S10','So sánh kế hoạch với kết quả; cần chỉ rõ cơ sở tính và mức độ xác nhận sản lượng.',aButton('← Dashboard','S01'))+filterbar(dropdown(['San lấp khu A','Công trình B']),filterDate(),badge('Đơn vị m³ (minh họa)','blue'))+`<div class="grid g4">${kpi('Kế hoạch sản lượng','1.000 m³','Mục tiêu kỳ mẫu')}${kpi('Sản lượng ước tính','800 m³','Theo phương pháp cần xác nhận')}${kpi('Sản lượng đã xác nhận','650 m³','Theo nguồn đối soát mẫu','S07')}${kpi('Tỷ lệ hoàn thành','65%','650 / 1.000 · mẫu')}</div><div class="grid g65" style="margin-top:15px">${box('Kế hoạch và kết quả thực hiện',`<div class="metric"><span class="nm">Kế hoạch</span><div class="bar"><div style="width:100%;background:#b7c8d5"></div></div><span class="val">1.000 m³</span></div><div class="metric"><span class="nm">Ước tính</span><div class="bar"><div style="width:80%;background:#92a8b8"></div></div><span class="val">800 m³</span></div><div class="metric"><span class="nm">Đã xác nhận</span><div class="bar"><div style="width:65%;background:#567e99"></div></div><span class="val">650 m³</span></div><div class="hint">3 chỉ số cần định nghĩa rõ. Không mặc định ước tính bằng nghiệm thu. Các số chỉ là dữ liệu mẫu.</div>`)}${box('Dữ liệu nền của kế hoạch',`<div class="kv"><span class="key">Dự án</span><span class="val">San lấp khu A (mẫu)</span><span class="key">Kỳ kế hoạch</span><span class="val">16/10/2026 (mẫu)</span><span class="key">Số xe dự kiến</span><span class="val">10 (mẫu)</span><span class="key">Số chuyến dự kiến</span><span class="val">50 (mẫu)</span><span class="key">Người duyệt</span><span class="val">Cần xác nhận</span></div>`)}</div><div class="grid g2" style="margin-top:15px">${box('Chi tiết theo thời gian',table(['Ngày','Kế hoạch','Ước tính','Đã xác nhận'],[['14/10','300 m³','260 m³','220 m³'],['15/10','350 m³','280 m³','240 m³'],['16/10','350 m³','260 m³','190 m³']].map(a=>`<tr>${a.map(x=>`<td>${x}</td>`).join('')}</tr>`)))}${box('Điều hướng xem chi tiết',`<div class="state"><span>Các chuyến của dự án</span>${aButton('Mở danh sách →','S04','sm')}</div><div class="state"><span>Hồ sơ đối soát</span>${aButton('Mở đối soát →','S07','sm')}</div><div class="state"><span>Phương tiện tham gia</span>${aButton('Xem GPS →','S02','sm')}</div><div class="hint">Chức năng điều chỉnh kế hoạch và quy trình phê duyệt kế hoạch cần khảo sát thêm.</div>`)}</div>`+help('Kế hoạch có thể theo ngày, giai đoạn và dự án như Q&A; công thức hoàn thành phải dùng hai số liệu cùng cơ sở đo.','Ai lập/duyệt mục tiêu, được sửa sau khi có thực tế không? KPI muốn so theo sản lượng vận chuyển hay nghiệm thu?')}
 };
 function nav(){document.querySelector('#nav').innerHTML=menus.map(g=>`<div class="menu-label">${g[0]}</div>`+g[1].map(x=>`<button class="nav ${x[0]===current?'active':''}" data-go="${x[0]}"><span class="id">${x[0]}</span><span class="txt">${x[1]}</span></button>`).join('')).join('')}
-function render(){nav();document.querySelector('#screen').innerHTML=screens[current]();document.querySelector('#trail').textContent=`${current} / 10 MÀN HÌNH`;document.title=`${current} · Hoa Đô · Prototype V3 GPS`;enhanceV2();}
-function toast(msg){const e=document.createElement('div');e.className='toast';e.textContent=msg;document.body.appendChild(e);setTimeout(()=>e.remove(),3600)}
+function render(){nav();document.querySelector('#screen').innerHTML=screens[current]();document.querySelector('#trail').textContent=`${current} / 10 MÀN HÌNH`;document.title=`${current} · Hoa Đô · Prototype V3`;enhanceV2();enhanceV3();}
+function toast(msg){const e=document.createElement('div');e.className='toast';const m=String(msg);if(/không thể|vui lòng|thiếu|không có|phải nhập/i.test(m))e.classList.add('warning');e.textContent=m;e.setAttribute('role','status');e.setAttribute('aria-live','polite');document.querySelectorAll('.toast').forEach(t=>t.remove());document.body.appendChild(e);setTimeout(()=>{e.style.opacity='0';e.style.transition='opacity .2s';setTimeout(()=>e.remove(),220)},3300)}
 document.addEventListener('click',e=>{const t=e.target.closest('[data-go],[data-vehicle],[data-trip],[data-toast],[data-submit-trip],[data-confirm],[data-save-draft],[data-edit-status],[data-request-doc],[data-note-discrepancy],[data-modal-close],[data-modal-submit],[data-alert-detail]');if(!t)return;if(t.dataset.vehicle)chosenVehicle=t.dataset.vehicle;if(t.dataset.trip)chosenTrip=t.dataset.trip;if(t.dataset.go){go(t.dataset.go);return}if(t.dataset.modalClose){closeV2Modal();return}if(t.dataset.modalSubmit){submitV2Modal(t.dataset.modalSubmit);return}if(t.dataset.saveDraft){draftCount++;toast('Đã lưu nháp trong phiên demo ('+draftCount+'). Không ghi vào hệ thống thật.');return;}if(t.dataset.editStatus){openV2Modal('status');return;}if(t.dataset.requestDoc){openV2Modal('request');return;}if(t.dataset.noteDiscrepancy){openV2Modal('discrepancy');return;}if(t.dataset.alertDetail){openV2Modal('alert');return;}if(t.dataset.submitTrip){const required=['tripProject','tripVehicle','tripDriver','tripFrom','tripTo','tripMaterial'];const ok=required.every(id=>!!document.getElementById(id)?.value);if(!ok){toast('Vui lòng nhập các trường bắt buộc (mẫu).');return;}const id='HD-CT-DEMO-'+String(trips.filter(t=>t.id.startsWith('HD-CT-DEMO-')).length+1).padStart(2,'0');const vehicle=document.getElementById('tripVehicle').value;const project=document.getElementById('tripProject').value;const from=document.getElementById('tripFrom').value;const to=document.getElementById('tripTo').value;trips.unshift({id,car:vehicle,project,route:from+' → '+to,state:'Đã giao nhiệm vụ',doc:'Chưa có chứng từ',qty:'Chưa có',flag:0,source:'Điều phối (Demo)'});tripHistory[id]=[{at:'16/10/2026',note:'Tạo chuyến demo từ form S05'}];chosenTrip=id;chosenVehicle=vehicle;toast('Đã mô phỏng tạo chuyến '+id+'. Không lưu vào hệ thống thật.');go('S06');return;}if(t.dataset.confirm){if(!getTrip().flag){toast('Hồ sơ đang thiếu chứng từ, không thể xác nhận trong bản demo.');return;}confirmedTripIds.add(chosenTrip); getTrip().doc='Đã xác nhận'; tripHistory[chosenTrip]=(tripHistory[chosenTrip]||[]).concat([{at:'16/10/2026',note:'Đã xác nhận đối soát mô phỏng'}]);render();toast('Đã mô phỏng xác nhận đối soát. Không tác động dữ liệu thật.');return;}if(t.dataset.toast)toast(t.dataset.toast);else if(t.dataset.vehicle)render();});
 document.addEventListener('change',e=>{if(e.target.id==='recTrip'){chosenTrip=e.target.value;render();}if(e.target.id==='fuelVehicle'){chosenVehicle=e.target.value;render();}});
-render();window.__renderScreen=go;window.__screenIds=Object.keys(screens);window.__demoInfo={mockData:true,project:'Hoa Đô',version:'V3-GPS'};
+window.__renderScreen=go;window.__screenIds=Object.keys(screens);window.__demoInfo={mockData:true,project:'Hoa Đô',version:'V3'};
 
 
 // V2 interaction helpers. Everything is stored IN MEMORY; no backend or real sensor data.
@@ -94,9 +509,9 @@ function enhanceV2(){
    const foot=root.querySelector('.toolbar');if(foot){const small=document.createElement('span');small.className='v2-filter-note';small.id='v2-trip-result';small.textContent=`Hiển thị ${trips.length} / ${trips.length} chuyến demo`;foot.after(small);small.style.display='block';small.style.marginBottom='12px';}
  }
  if(current==='S02'){
-   const input=root.querySelector('#v2-gps-search');
+   const input=root.querySelector('.toolbar input.search');if(input){input.id='v2-gps-search';input.placeholder='Tìm biển số / mã máy…';}
    const status=root.querySelectorAll('.toolbar select');if(status[1])status[1].id='v2-gps-status';
-   const head=root.querySelector('.toolbar');if(head&&!root.querySelector('#v2-gps-result')){const msg=document.createElement('span');msg.className='v2-filter-note';msg.id='v2-gps-result';msg.textContent=`${gpsVehicles.length} phương tiện`;head.appendChild(msg);}
+   const head=root.querySelector('.toolbar');if(head){const msg=document.createElement('span');msg.className='v2-filter-note';msg.id='v2-gps-result';msg.textContent='03 phương tiện mẫu';head.appendChild(msg);}
  }
  if(current==='S05'){
    root.querySelectorAll('.formSection').forEach((e,i)=>e.innerHTML=`<span style="display:inline-flex;background:#ffcc00;color:#171717;width:26px;height:26px;align-items:center;justify-content:center;border-radius:50%;font-size:11px;margin-right:8px">${i+1}</span>`+e.textContent.replace(/^\d+\.\s*/,'') );
@@ -125,7 +540,7 @@ function updateV2TripFilters(){
 }
 function updateV2GPSFilters(){
  if(current!=='S02')return;const root=document.getElementById('screen');const q=(root.querySelector('#v2-gps-search')?.value||'').toLowerCase().trim();const st=root.querySelector('#v2-gps-status')?.value||'Tất cả trạng thái';
- let count=0;root.querySelectorAll('.gps-table tbody tr[data-vehicle]').forEach(r=>{const id=r.dataset.vehicle||'';const d=gpsVehicle(id);const matchesStatus=st==='Tất cả trạng thái'||d.signal===st;const show=(!q||id.toLowerCase().includes(q))&&matchesStatus;r.style.display=show?'':'none';if(show)count++;});const status=root.querySelector('#v2-gps-result');if(status)status.textContent=`${count} phương tiện phù hợp`;
+ let count=0;root.querySelectorAll('.vehicleRow').forEach(r=>{const v=r.dataset.vehicle||'';const isDelayed=v==='30H-67890';const gpsAvailable=v==='29H-12345';const matchesStatus=st==='Tất cả trạng thái'||(st==='Có tín hiệu'&&gpsAvailable)||(st==='Dữ liệu trễ'&&isDelayed);const show=(!q||v.toLowerCase().includes(q))&&matchesStatus;r.style.display=show?'':'none';if(show)count++;});const status=root.querySelector('#v2-gps-result');if(status)status.textContent=`${count} phương tiện phù hợp`;
 }
 function closeV2Modal(){document.getElementById('v2modal')?.remove()}
 function openV2Modal(kind){
@@ -146,4 +561,106 @@ document.addEventListener('input',e=>{if(e.target.id==='v2-trip-search')updateV2
 document.addEventListener('change',e=>{if(['v2-trip-project','v2-trip-state'].includes(e.target.id))updateV2TripFilters();if(e.target.id==='v2-gps-status')updateV2GPSFilters()});
 document.addEventListener('click',e=>{if(e.target.closest('[data-reset-trip]')){const r=document.getElementById('screen');r.querySelector('#v2-trip-search').value='';r.querySelector('#v2-trip-project').selectedIndex=0;r.querySelector('#v2-trip-state').selectedIndex=0;updateV2TripFilters()}});
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeV2Modal()});
+
+// V3 design enhancements: progressive UI only; business data remain demo/in-memory.
+const v3Icons={
+  S01:'<rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/>',
+  S10:'<path d="M3 18l5-6 4 3 7-10"/><path d="M15 5h4v4"/><path d="M3 21h18"/>',
+  S02:'<path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3V6z"/><path d="M9 3v15M15 6v15"/>',
+  S03:'<rect x="3" y="8" width="18" height="9" rx="2"/><path d="M7 8V5h9l3 3"/><circle cx="7" cy="18" r="2"/><circle cx="18" cy="18" r="2"/>',
+  S04:'<path d="M3 7h11v9H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="18" r="2"/><circle cx="18" cy="18" r="2"/>',
+  S07:'<path d="M7 3h10l3 3v15H4V3h3"/><path d="M8 11l2 2 4-4M8 17h8"/>',
+  S08:'<path d="M5 4h11v17H5zM8 8h5M16 8h2l2 3v7a2 2 0 0 1-4 0"/><path d="M8 21v-4"/>'
+};
+function enhanceV3(){
+  const nav=document.querySelector('#nav');
+  nav.querySelectorAll('.nav').forEach(el=>{
+    const svg=v3Icons[el.dataset.go];
+    if(svg){const icon=document.createElement('span');icon.className='nav-v3-icon';icon.setAttribute('aria-hidden','true');icon.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">'+svg+'</svg>';el.insertBefore(icon,el.querySelector('.txt'));}
+    if(el.classList.contains('active'))el.setAttribute('aria-current','page');
+  });
+  document.querySelectorAll('#screen [data-go]:not(button):not(a),#screen tr.clickable,#screen .vehicleRow,#screen .pin').forEach(el=>{el.setAttribute('role','button');el.tabIndex=0;});
+  const toggle=document.querySelector('[data-review-toggle]');
+  if(toggle)toggle.textContent=document.body.classList.contains('hide-review-notes')?'Hiện ghi chú BA':'Ẩn ghi chú BA';
+}
+document.addEventListener('click',e=>{
+  const toggle=e.target.closest('[data-review-toggle]');
+  if(toggle){const hidden=document.body.classList.toggle('hide-review-notes');toggle.setAttribute('aria-pressed',String(!hidden));toggle.textContent=hidden?'Hiện ghi chú BA':'Ẩn ghi chú BA';toast(hidden?'Đã ẩn ghi chú BA để xem giao diện sản phẩm.':'Đã hiển thị ghi chú phục vụ BA review.');return;}
+  const target=e.target.closest('button,.v2-quick button');
+  if(target&&!target.disabled){const box=target.getBoundingClientRect();if(box.width&&box.height){const circle=document.createElement('span');circle.className='v3-ripple';const diameter=Math.max(box.width,box.height);circle.style.width=circle.style.height=diameter+'px';circle.style.left=(e.clientX-box.left-diameter/2)+'px';circle.style.top=(e.clientY-box.top-diameter/2)+'px';const previous=target.style.position;if(getComputedStyle(target).position==='static')target.style.position='relative';target.style.overflow='hidden';target.appendChild(circle);setTimeout(()=>{circle.remove();if(!previous)target.style.removeProperty('position');target.style.removeProperty('overflow')},650)}}
+  if(e.target.id==='v2modal')closeV2Modal();
+});
+document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches('[role=button]')){e.preventDefault();e.target.click();}});
+// Ensure modal receives keyboard focus after insertion, and restore focus on close.
+const modalWatcher=new MutationObserver(()=>{const modal=document.getElementById('v2modal');if(modal&&!modal.dataset.v3Focus){modal.dataset.v3Focus='1';const field=modal.querySelector('select,textarea,input');if(field)field.focus();else{modal.querySelector('.modal')?.setAttribute('tabindex','-1');modal.querySelector('.modal')?.focus();}}});
+modalWatcher.observe(document.body,{childList:true});
+
+
+// Demo UI gate only. This is not secure authentication: accounts are public, and there is no server.
+const DEMO_LOGIN_EMAIL='demo@hoado.vn';
+const DEMO_LOGIN_PASSWORD='Demo@123';
+const DEMO_SESSION_KEY='hoado_v31_demo_session';
+function isDemoAuthenticated(){try{return sessionStorage.getItem(DEMO_SESSION_KEY)==='1'}catch{return false}}
+function setDemoAuthenticated(value){try{if(value)sessionStorage.setItem(DEMO_SESSION_KEY,'1');else sessionStorage.removeItem(DEMO_SESSION_KEY)}catch{ /* Blocked storage: still permit demo use in-memory */ } demoLoggedIn=!!value}
+let demoLoggedIn=isDemoAuthenticated();
+function updateLoginState(){
+  const active=demoLoggedIn||isDemoAuthenticated();
+  document.body.classList.toggle('is-authenticated',active);
+  document.querySelector('#login-view').inert=active;
+  document.querySelector('.app').inert=!active;
+  if(active){render()}else{document.title='Đăng nhập · Hoa Đô · Prototype V3.1';setTimeout(()=>document.querySelector('#login-user')?.focus(),80)}
+}
+function setLoginError(message){
+  const msg=document.querySelector('#login-error');msg.textContent=message;msg.hidden=!message;
+  for(const el of document.querySelectorAll('.login-input-wrap'))el.classList.toggle('invalid',!!message);
+  for(const id of ['login-user','login-password'])document.getElementById(id).setAttribute('aria-invalid',message?'true':'false');
+}
+const loginForm=document.getElementById('hoado-login-form');
+loginForm.addEventListener('submit',(e)=>{
+  e.preventDefault();
+  const email=document.getElementById('login-user').value.trim().toLowerCase();
+  const password=document.getElementById('login-password').value;
+  if(!email){setLoginError('Vui lòng nhập email đăng nhập.');document.getElementById('login-user').focus();return}
+  if(!password){setLoginError('Vui lòng nhập mật khẩu.');document.getElementById('login-password').focus();return}
+  if(email!==DEMO_LOGIN_EMAIL||password!==DEMO_LOGIN_PASSWORD){setLoginError('Email hoặc mật khẩu demo không đúng. Vui lòng kiểm tra lại.');document.getElementById('login-password').focus();return}
+  setLoginError('');
+  const submit=document.getElementById('login-submit');submit.disabled=true;submit.classList.add('is-loading');submit.querySelector('.login-submit-label').textContent='Đang mở hệ thống…';
+  setTimeout(()=>{setDemoAuthenticated(true);submit.disabled=false;submit.classList.remove('is-loading');submit.querySelector('.login-submit-label').textContent='Đăng nhập vào hệ thống';updateLoginState();document.querySelector('.main').scrollTop=0;toast('Đăng nhập demo thành công. Chào mừng đến với Hoa Đô!')},430);
+});
+document.getElementById('login-toggle-password').addEventListener('click',()=>{
+  const input=document.getElementById('login-password');const visible=input.type==='password';input.type=visible?'text':'password';const button=document.getElementById('login-toggle-password');button.setAttribute('aria-pressed',String(visible));button.setAttribute('aria-label',visible?'Ẩn mật khẩu':'Hiện mật khẩu');input.focus();
+});
+document.getElementById('login-fill-demo').addEventListener('click',()=>{
+  document.getElementById('login-user').value=DEMO_LOGIN_EMAIL;document.getElementById('login-password').value=DEMO_LOGIN_PASSWORD;setLoginError('');document.getElementById('login-submit').focus();
+});
+loginForm.addEventListener('input',()=>{if(!document.getElementById('login-error').hidden)setLoginError('')});
+document.addEventListener('click',e=>{
+  if(!e.target.closest('[data-logout-demo]'))return;
+  setDemoAuthenticated(false);
+  // Reload intentionally clears all in-memory mock edits from this demo session.
+  location.reload();
+});
+
+
+/* V3.2: persist preference across logout/reload; keeps interaction accessible. */
+const HOADO_THEME_KEY='hoado_v32_theme';
+function getHoadoTheme(){return document.documentElement.dataset.theme==='dark'?'dark':'light'}
+function setHoadoTheme(mode){
+  const chosen=mode==='dark'?'dark':'light';
+  document.documentElement.dataset.theme=chosen;
+  try{localStorage.setItem(HOADO_THEME_KEY,chosen)}catch(e){}
+  document.querySelectorAll('[data-theme-toggle]').forEach((button)=>{
+    button.setAttribute('aria-pressed',String(chosen==='dark'));
+    button.setAttribute('aria-label',chosen==='dark'?'Bật chế độ sáng':'Bật chế độ tối');
+    button.setAttribute('title',chosen==='dark'?'Chuyển sang giao diện sáng':'Chuyển sang giao diện tối');
+    const name=button.querySelector('.theme-toggle-name');
+    if(name)name.textContent=chosen==='dark'?'Tối':'Sáng';
+  });
+}
+document.addEventListener('click',event=>{
+  if(event.target.closest('[data-theme-toggle]'))setHoadoTheme(getHoadoTheme()==='dark'?'light':'dark');
+});
+setHoadoTheme(getHoadoTheme());
+
+updateLoginState();
 </script></body></html>
